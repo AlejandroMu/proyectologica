@@ -1,0 +1,12 @@
+AR sumador1bit_muser_sumador6bits behavioral C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador6bits.vhf sub00/vhpl07 1543354506
+AR sumador6bits_muser_sumadorrestador6bits behavioral C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.vhf sub00/vhpl03 1543354502
+AR sumadorrestador6bits behavioral C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.vhf sub00/vhpl05 1543354504
+AR sumador1bit behavioral C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador1Bit.vhf sub00/vhpl11 1543354510
+EN sumador6bits NULL C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador6bits.vhf sub00/vhpl08 1543354507
+EN sumador1bit_muser_sumadorrestador6bits NULL C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.vhf sub00/vhpl00 1543354499
+AR sumador1bit_muser_sumadorrestador6bits behavioral C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.vhf sub00/vhpl01 1543354500
+EN sumador1bit NULL C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador1Bit.vhf sub00/vhpl10 1543354509
+EN sumador6bits_muser_sumadorrestador6bits NULL C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.vhf sub00/vhpl02 1543354501
+EN sumador1bit_muser_sumador6bits NULL C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador6bits.vhf sub00/vhpl06 1543354505
+EN sumadorrestador6bits NULL C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.vhf sub00/vhpl04 1543354503
+AR sumador6bits behavioral C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador6bits.vhf sub00/vhpl09 1543354508

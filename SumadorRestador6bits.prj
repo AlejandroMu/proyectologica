@@ -1,0 +1,3 @@
+vhdl work "Sumador1Bit.vhf"
+vhdl work "Sumador6bits.vhf"
+vhdl work "SumadorRestador6bits.vhf"

@@ -1,0 +1,3 @@
+MODULE SumadorRestador6bits
+	SUBMODULE Sumador6bits
+		INSTANCE XLXI_1
