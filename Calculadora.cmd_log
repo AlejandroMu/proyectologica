@@ -1,0 +1,33 @@
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Calculadora.ucf -p xc3s500e-fg320-4 Calculadora.ngc Calculadora.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Calculadora_map.ncd Calculadora.ngd Calculadora.pcf 
+par -w -intstyle ise -ol high -t 1 Calculadora_map.ncd Calculadora.ncd Calculadora.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Calculadora.twx Calculadora.ncd -o Calculadora.twr Calculadora.pcf -ucf Calculadora.ucf 
+bitgen -intstyle ise -f Calculadora.ut Calculadora.ncd 
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Calculadora.ucf -p xc3s500e-fg320-4 Calculadora.ngc Calculadora.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Calculadora_map.ncd Calculadora.ngd Calculadora.pcf 
+par -w -intstyle ise -ol high -t 1 Calculadora_map.ncd Calculadora.ncd Calculadora.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Calculadora.twx Calculadora.ncd -o Calculadora.twr Calculadora.pcf -ucf Calculadora.ucf 
+bitgen -intstyle ise -f Calculadora.ut Calculadora.ncd 
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Calculadora.ucf -p xc3s500e-fg320-4 Calculadora.ngc Calculadora.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Calculadora_map.ncd Calculadora.ngd Calculadora.pcf 
+par -w -intstyle ise -ol high -t 1 Calculadora_map.ncd Calculadora.ncd Calculadora.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Calculadora.twx Calculadora.ncd -o Calculadora.twr Calculadora.pcf -ucf Calculadora.ucf 
+bitgen -intstyle ise -f Calculadora.ut Calculadora.ncd 
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 Calculadora.ngc Calculadora.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Calculadora_map.ncd Calculadora.ngd Calculadora.pcf 
+par -w -intstyle ise -ol high -t 1 Calculadora_map.ncd Calculadora.ncd Calculadora.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Calculadora.twx Calculadora.ncd -o Calculadora.twr Calculadora.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Calculadora.ucf -p xc3s500e-fg320-4 Calculadora.ngc Calculadora.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Calculadora_map.ncd Calculadora.ngd Calculadora.pcf 
+par -w -intstyle ise -ol high -t 1 Calculadora_map.ncd Calculadora.ncd Calculadora.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Calculadora.twx Calculadora.ncd -o Calculadora.twr Calculadora.pcf -ucf Calculadora.ucf 
+bitgen -intstyle ise -f Calculadora.ut Calculadora.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Calculadora.ucf -p xc3s500e-fg320-4 Calculadora.ngc Calculadora.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Calculadora_map.ncd Calculadora.ngd Calculadora.pcf 
+par -w -intstyle ise -ol high -t 1 Calculadora_map.ncd Calculadora.ncd Calculadora.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Calculadora.twx Calculadora.ncd -o Calculadora.twr Calculadora.pcf -ucf Calculadora.ucf 
+bitgen -intstyle ise -f Calculadora.ut Calculadora.ncd 

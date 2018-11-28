@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/pruebaRaiz.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/pruebaRaiz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Calculadora.ucf -p xc3s500e-fg320-4 pruebaRaiz.ngc pruebaRaiz.ngd  
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/pruebaRaiz.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/pruebaRaiz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc pruebaRaiz.ucf -p xc3s500e-fg320-4 pruebaRaiz.ngc pruebaRaiz.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o pruebaRaiz_map.ncd pruebaRaiz.ngd pruebaRaiz.pcf 
+par -w -intstyle ise -ol high -t 1 pruebaRaiz_map.ncd pruebaRaiz.ncd pruebaRaiz.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml pruebaRaiz.twx pruebaRaiz.ncd -o pruebaRaiz.twr pruebaRaiz.pcf -ucf pruebaRaiz.ucf 
+bitgen -intstyle ise -f pruebaRaiz.ut pruebaRaiz.ncd 

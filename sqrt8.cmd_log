@@ -1,0 +1,2 @@
+vhdtdtfi -lib work raizCuadrada.vhd -prj proyect -o sqrt8.spl -module sqrt8 -template D:/xilins/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e sqrt8.spl C:/Users/alejandro/Desktop/proyectologica/proyect/sqrt8.sym 

@@ -1,0 +1,8 @@
+[Inputs]
+=A[5:0]=
+=B[5:0]=
+[Outputs]
+MAYOR
+MENOR
+IGUAL
+[BiDir]

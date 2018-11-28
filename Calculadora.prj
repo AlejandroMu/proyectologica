@@ -1,0 +1,4 @@
+vhdl work "Sumador1Bit.vhf"
+vhdl work "MultiInterno.vhf"
+vhdl work "Multiplicador.vhf"
+vhdl work "Calculadora.vhf"

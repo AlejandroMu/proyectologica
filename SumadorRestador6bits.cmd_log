@@ -5,3 +5,13 @@ map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Sumador
 map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o SumadorRestador6bits_map.ncd SumadorRestador6bits.ngd SumadorRestador6bits.pcf 
 par -w -intstyle ise -ol high -t 1 SumadorRestador6bits_map.ncd SumadorRestador6bits.ncd SumadorRestador6bits.pcf 
 trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SumadorRestador6bits.twx SumadorRestador6bits.ncd -o SumadorRestador6bits.twr SumadorRestador6bits.pcf 
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 SumadorRestador6bits.ngc SumadorRestador6bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o SumadorRestador6bits_map.ncd SumadorRestador6bits.ngd SumadorRestador6bits.pcf 
+par -w -intstyle ise -ol high -t 1 SumadorRestador6bits_map.ncd SumadorRestador6bits.ncd SumadorRestador6bits.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SumadorRestador6bits.twx SumadorRestador6bits.ncd -o SumadorRestador6bits.twr SumadorRestador6bits.pcf 
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-fg320-4 SumadorRestador6bits.ngc SumadorRestador6bits.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o SumadorRestador6bits_map.ncd SumadorRestador6bits.ngd SumadorRestador6bits.pcf 
+par -w -intstyle ise -ol high -t 1 SumadorRestador6bits_map.ncd SumadorRestador6bits.ncd SumadorRestador6bits.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml SumadorRestador6bits.twx SumadorRestador6bits.ncd -o SumadorRestador6bits.twr SumadorRestador6bits.pcf 

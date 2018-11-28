@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# PlanAhead v14.4 (64-bit)
+# Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
+# Start of session at: Wed Nov 28 15:09:28 2018
+# Process ID: 4704
+# Log file: C:/Users/alejandro/Desktop/proyectologica/proyect/planAhead_run_5/planAhead.log
+# Journal file: C:/Users/alejandro/Desktop/proyectologica/proyect/planAhead_run_5/planAhead.jou
+#-----------------------------------------------------------
+start_gui
+source C:/Users/alejandro/Desktop/proyectologica/proyect/pa.fromHdl.tcl
+update_compile_order -fileset sim_1
+set_property pulltype PULLUP [get_ports [list A0]]
+set_property pulltype PULLUP [get_ports [list A1]]
+set_property pulltype PULLUP [get_ports [list A2]]
+set_property pulltype PULLUP [get_ports [list A3]]
+startgroup
+set_property package_pin L13 [get_ports A0]
+endgroup
+startgroup
+set_property package_pin L14 [get_ports A1]
+endgroup
+startgroup
+set_property package_pin H18 [get_ports A2]
+endgroup
+startgroup
+set_property package_pin N17 [get_ports A3]
+endgroup
+startgroup
+set_property package_pin F12 [get_ports S0]
+endgroup
+startgroup
+set_property package_pin E12 [get_ports S1]
+endgroup
+startgroup
+set_property package_pin E11 [get_ports S2]
+endgroup
+startgroup
+set_property package_pin F11 [get_ports S3]
+endgroup
+save_constraints

@@ -1,0 +1,6 @@
+vhdtdtfi -lib work COMPARADOR.vhd -prj proyect -o COMPARADOR.spl -module COMPARADOR -template D:/xilins/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e COMPARADOR.spl C:/Users/alejandro/Desktop/proyectologica/proyect/COMPARADOR.sym 
+vhdtdtfi -lib work COMPARADOR.vhd -prj proyect -o COMPARADOR.spl -module COMPARADOR -template D:/xilins/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e COMPARADOR.spl C:/Users/alejandro/Desktop/proyectologica/proyect/COMPARADOR.sym 
+vhdtdtfi -lib work COMPARADOR.vhd -prj proyect -o COMPARADOR.spl -module COMPARADOR -template D:/xilins/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e COMPARADOR.spl C:/Users/alejandro/Desktop/proyectologica/proyect/COMPARADOR.sym 

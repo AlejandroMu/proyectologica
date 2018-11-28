@@ -7,17 +7,9 @@
     </attr>
     <netlist>
         <signal name="A0" />
-        <signal name="XLXN_2">
-        </signal>
         <signal name="A2" />
-        <signal name="XLXN_7">
-        </signal>
         <signal name="A3" />
-        <signal name="XLXN_9">
-        </signal>
         <signal name="A4" />
-        <signal name="XLXN_11">
-        </signal>
         <signal name="A5" />
         <signal name="S0" />
         <signal name="cout" />
@@ -27,24 +19,13 @@
         <signal name="S2" />
         <signal name="S1" />
         <signal name="A1" />
-        <signal name="XLXN_22" />
-        <signal name="XLXN_23" />
-        <signal name="XLXN_24" />
-        <signal name="XLXN_25" />
-        <signal name="XLXN_26" />
         <signal name="XLXN_27" />
         <signal name="XLXN_28" />
         <signal name="XLXN_29" />
         <signal name="XLXN_30" />
         <signal name="XLXN_31" />
-        <signal name="XLXN_33" />
-        <signal name="XLXN_34" />
-        <signal name="XLXN_35" />
-        <signal name="XLXN_36" />
         <signal name="XLXN_37" />
         <signal name="control" />
-        <signal name="XLXN_40" />
-        <signal name="XLXN_41" />
         <signal name="B0" />
         <signal name="B1" />
         <signal name="B2" />

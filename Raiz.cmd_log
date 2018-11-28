@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family spartan3e -refsym Raiz C:/Users/alejandro/Desktop/proyectologica/proyect/Raiz.sch C:/Users/alejandro/Desktop/proyectologica/proyect/Raiz.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Raiz.vhf -w C:/Users/alejandro/Desktop/proyectologica/proyect/Raiz.sch 
+sch2vhdl -intstyle ise -family spartan3e -tionly -w C:/Users/alejandro/Desktop/proyectologica/proyect/Raiz.sch Raiz.vhi 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Raiz_drc.vhf -w C:/Users/alejandro/Desktop/proyectologica/proyect/Raiz.sch 

@@ -1,0 +1,4 @@
+sch2sym -intstyle ise -family spartan3e -refsym raizInterno C:/Users/alejandro/Desktop/proyectologica/proyect/raizInterno.sch C:/Users/alejandro/Desktop/proyectologica/proyect/raizInterno.sym 
+sch2sym -intstyle ise -family spartan3e -refsym raizInterno C:/Users/alejandro/Desktop/proyectologica/proyect/raizInterno.sch C:/Users/alejandro/Desktop/proyectologica/proyect/raizInterno.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl raizInterno_drc.vhf -w C:/Users/alejandro/Desktop/proyectologica/proyect/raizInterno.sch 
+sch2sym -intstyle ise -family spartan3e -refsym raizInterno C:/Users/alejandro/Desktop/proyectologica/proyect/raizInterno.sch C:/Users/alejandro/Desktop/proyectologica/proyect/raizInterno.sym 

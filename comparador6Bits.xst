@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/alejandro/Desktop/proyectologica/proyect/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/alejandro/Desktop/proyectologica/proyect/xst"
+elaborate
+-ifn comparador6Bits.prj
+-ifmt mixed

@@ -5,5 +5,29 @@
      behavior or data corruption.  It is strongly advised that
      users do not edit the contents of this file. -->
 <messages>
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alejandro/Desktop/proyectologica/proyect/pruebaRaiz.vhf</arg>&quot; line <arg fmt="%d" index="2">250</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">d</arg>&apos; of component &apos;<arg fmt="%s" index="4">raizInterno_MUSER_pruebaRaiz</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alejandro/Desktop/proyectologica/proyect/pruebaRaiz.vhf</arg>&quot; line <arg fmt="%d" index="2">274</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">d</arg>&apos; of component &apos;<arg fmt="%s" index="4">raizInterno_MUSER_pruebaRaiz</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alejandro/Desktop/proyectologica/proyect/pruebaRaiz.vhf</arg>&quot; line <arg fmt="%d" index="2">314</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">d</arg>&apos; of component &apos;<arg fmt="%s" index="4">raizInterno_MUSER_pruebaRaiz</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alejandro/Desktop/proyectologica/proyect/pruebaRaiz.vhf</arg>&quot; line <arg fmt="%d" index="2">322</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">d</arg>&apos; of component &apos;<arg fmt="%s" index="4">raizInterno_MUSER_pruebaRaiz</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alejandro/Desktop/proyectologica/proyect/pruebaRaiz.vhf</arg>&quot; line <arg fmt="%d" index="2">330</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">d</arg>&apos; of component &apos;<arg fmt="%s" index="4">raizInterno_MUSER_pruebaRaiz</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alejandro/Desktop/proyectologica/proyect/pruebaRaiz.vhf</arg>&quot; line <arg fmt="%d" index="2">338</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">d</arg>&apos; of component &apos;<arg fmt="%s" index="4">raizInterno_MUSER_pruebaRaiz</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alejandro/Desktop/proyectologica/proyect/pruebaRaiz.vhf</arg>&quot; line <arg fmt="%d" index="2">346</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">d</arg>&apos; of component &apos;<arg fmt="%s" index="4">raizInterno_MUSER_pruebaRaiz</arg>&apos;.
+</msg>
+
+<msg type="warning" file="Xst" num="753" delta="old" >&quot;<arg fmt="%s" index="1">C:/Users/alejandro/Desktop/proyectologica/proyect/pruebaRaiz.vhf</arg>&quot; line <arg fmt="%d" index="2">354</arg>: Unconnected output port &apos;<arg fmt="%s" index="3">d</arg>&apos; of component &apos;<arg fmt="%s" index="4">raizInterno_MUSER_pruebaRaiz</arg>&apos;.
+</msg>
+
 </messages>
 

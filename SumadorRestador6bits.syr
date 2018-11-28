@@ -3,14 +3,14 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.71 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.23 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.72 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.25 secs
  
 --> Reading design: SumadorRestador6bits.prj
 
@@ -105,41 +105,38 @@ Slice Utilization Ratio Delta      : 5
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.vhf" in Library work.
-Entity <Sumador1Bit_MUSER_SumadorRestador6bits> compiled.
-Entity <Sumador1Bit_MUSER_SumadorRestador6bits> (Architecture <BEHAVIORAL>) compiled.
-Entity <Sumador6bits_MUSER_SumadorRestador6bits> compiled.
-Entity <Sumador6bits_MUSER_SumadorRestador6bits> (Architecture <BEHAVIORAL>) compiled.
-Entity <SumadorRestador6bits> compiled.
-Entity <SumadorRestador6bits> (Architecture <BEHAVIORAL>) compiled.
+Entity <sumador1bit_muser_sumadorrestador6bits> compiled.
+Entity <sumador1bit_muser_sumadorrestador6bits> (Architecture <behavioral>) compiled.
+Entity <sumador6bits_muser_sumadorrestador6bits> compiled.
+Entity <sumador6bits_muser_sumadorrestador6bits> (Architecture <behavioral>) compiled.
+Entity <sumadorrestador6bits> compiled.
+Entity <sumadorrestador6bits> (Architecture <behavioral>) compiled.
 Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador6bits.vhf" in Library work.
-Entity <Sumador1Bit_MUSER_Sumador6bits> compiled.
-Entity <Sumador1Bit_MUSER_Sumador6bits> (Architecture <BEHAVIORAL>) compiled.
-Entity <Sumador6bits> compiled.
-Entity <Sumador6bits> (Architecture <BEHAVIORAL>) compiled.
+Architecture behavioral of Entity sumador1bit_muser_sumador6bits is up to date.
+Architecture behavioral of Entity sumador6bits is up to date.
 Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador1Bit.vhf" in Library work.
-Entity <Sumador1Bit> compiled.
-Entity <Sumador1Bit> (Architecture <BEHAVIORAL>) compiled.
+Architecture behavioral of Entity sumador1bit is up to date.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
-Analyzing hierarchy for entity <SumadorRestador6bits> in library <work> (architecture <BEHAVIORAL>).
+Analyzing hierarchy for entity <SumadorRestador6bits> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <Sumador6bits_MUSER_SumadorRestador6bits> in library <work> (architecture <BEHAVIORAL>).
+Analyzing hierarchy for entity <Sumador6bits_MUSER_SumadorRestador6bits> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <Sumador1Bit_MUSER_SumadorRestador6bits> in library <work> (architecture <BEHAVIORAL>).
+Analyzing hierarchy for entity <Sumador1Bit_MUSER_SumadorRestador6bits> in library <work> (architecture <behavioral>).
 
 
 =========================================================================
 *                            HDL Analysis                               *
 =========================================================================
-Analyzing Entity <SumadorRestador6bits> in library <work> (Architecture <BEHAVIORAL>).
+Analyzing Entity <SumadorRestador6bits> in library <work> (Architecture <behavioral>).
 Entity <SumadorRestador6bits> analyzed. Unit <SumadorRestador6bits> generated.
 
-Analyzing Entity <Sumador6bits_MUSER_SumadorRestador6bits> in library <work> (Architecture <BEHAVIORAL>).
+Analyzing Entity <Sumador6bits_MUSER_SumadorRestador6bits> in library <work> (Architecture <behavioral>).
 Entity <Sumador6bits_MUSER_SumadorRestador6bits> analyzed. Unit <Sumador6bits_MUSER_SumadorRestador6bits> generated.
 
-Analyzing Entity <Sumador1Bit_MUSER_SumadorRestador6bits> in library <work> (Architecture <BEHAVIORAL>).
+Analyzing Entity <Sumador1Bit_MUSER_SumadorRestador6bits> in library <work> (Architecture <behavioral>).
 Entity <Sumador1Bit_MUSER_SumadorRestador6bits> analyzed. Unit <Sumador1Bit_MUSER_SumadorRestador6bits> generated.
 
 
@@ -314,12 +311,12 @@ Delay:               21.172ns (Levels of Logic = 16)
 =========================================================================
 
 
-Total REAL time to Xst completion: 21.00 secs
-Total CPU time to Xst completion: 21.08 secs
+Total REAL time to Xst completion: 15.00 secs
+Total CPU time to Xst completion: 14.63 secs
  
 --> 
 
-Total memory usage is 258804 kilobytes
+Total memory usage is 259444 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    0 (   0 filtered)

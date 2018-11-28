@@ -1,0 +1,1 @@
+vhdtdtfi -prj proyect -o raizCuadrada.spl -module raizCuadrada -template D:/xilins/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
