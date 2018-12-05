@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.4
 --  \   \         Application : sch2hdl
 --  /   /         Filename : Multiplicador.vhf
--- /___/   /\     Timestamp : 11/28/2018 14:33:09
+-- /___/   /\     Timestamp : 11/29/2018 15:57:00
 -- \   \  /  \ 
 --  \___\/\___\ 
 --

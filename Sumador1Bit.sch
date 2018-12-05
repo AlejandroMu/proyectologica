@@ -6,20 +6,10 @@
         <trait edittrait="all:0" />
     </attr>
     <netlist>
-        <signal name="XLXN_3" />
-        <signal name="XLXN_4" />
         <signal name="A" />
         <signal name="B" />
-        <signal name="XLXN_7" />
         <signal name="cin" />
-        <signal name="XLXN_10" />
-        <signal name="XLXN_14" />
-        <signal name="XLXN_15" />
-        <signal name="XLXN_16" />
         <signal name="XLXN_17" />
-        <signal name="XLXN_18" />
-        <signal name="XLXN_20" />
-        <signal name="XLXN_21" />
         <signal name="XLXN_22" />
         <signal name="XLXN_23" />
         <signal name="S" />

@@ -4,7 +4,7 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
 D:\xilins\14.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
 -n 3 -fastpaths -xml Calculadora.twx Calculadora.ncd -o Calculadora.twr
-Calculadora.pcf -ucf Calculadora.ucf
+Calculadora.pcf
 
 Design file:              Calculadora.ncd
 Physical constraint file: Calculadora.pcf
@@ -44,24 +44,24 @@ Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-A0             |S0             |    7.917|
-A0             |S1             |    8.084|
-A0             |S2             |    7.407|
-A0             |S3             |    8.468|
-A1             |S1             |    9.957|
-A1             |S2             |    9.323|
-A1             |S3             |   10.273|
-B0             |S0             |    8.857|
-B0             |S1             |    9.037|
-B0             |S2             |    8.329|
-B0             |S3             |    9.377|
-B1             |S1             |    9.268|
-B1             |S2             |    8.553|
-B1             |S3             |    9.547|
+A0             |S0             |    6.466|
+A0             |S1             |    6.207|
+A0             |S2             |    6.519|
+A0             |S3             |    6.934|
+A1             |S1             |    6.448|
+A1             |S2             |    6.729|
+A1             |S3             |    5.918|
+B0             |S0             |    6.498|
+B0             |S1             |    6.231|
+B0             |S2             |    6.570|
+B0             |S3             |    5.930|
+B1             |S1             |    6.340|
+B1             |S2             |    6.614|
+B1             |S3             |    5.958|
 ---------------+---------------+---------+
 
 
-Analysis completed Wed Nov 28 14:49:50 2018 
+Analysis completed Thu Nov 29 15:58:13 2018 
 --------------------------------------------------------------------------------
 
 Trace Settings:

@@ -1,19 +1,4 @@
 //! **************************************************************************
-// Written by: Map P.49d on Wed Nov 28 14:49:13 2018
+// Written by: Map P.49d on Thu Nov 29 15:57:44 2018
 //! **************************************************************************
-
-SCHEMATIC START;
-COMP "S0" LOCATE = SITE "F12" LEVEL 1;
-COMP "S1" LOCATE = SITE "E12" LEVEL 1;
-COMP "S2" LOCATE = SITE "E11" LEVEL 1;
-COMP "S3" LOCATE = SITE "F11" LEVEL 1;
-COMP "S4" LOCATE = SITE "C11" LEVEL 1;
-COMP "S5" LOCATE = SITE "D11" LEVEL 1;
-COMP "S6" LOCATE = SITE "E9" LEVEL 1;
-COMP "S7" LOCATE = SITE "F9" LEVEL 1;
-COMP "A0" LOCATE = SITE "H18" LEVEL 1;
-COMP "A1" LOCATE = SITE "N17" LEVEL 1;
-COMP "B0" LOCATE = SITE "L13" LEVEL 1;
-COMP "B1" LOCATE = SITE "L14" LEVEL 1;
-SCHEMATIC END;
 

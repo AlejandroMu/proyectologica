@@ -1,51 +1,47 @@
-V3 96
-FL C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.vhf 2018/11/28.14:33:08 P.49d
-AR work/raizInterno_MUSER_Calculadora/BEHAVIORAL 1543429632 \
-      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.vhf \
-      EN work/raizInterno_MUSER_Calculadora 1543429631 CP AND3B1 CP AND3 CP AND3B2 \
-      CP OR4 CP MUXF5
+V3 177
+FL C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.vhf 2018/11/29.15:57:04 P.49d
 AR work/Raiz_MUSER_Calculadora/BEHAVIORAL 1543429634 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.vhf \
       EN work/Raiz_MUSER_Calculadora 1543429633 CP raizInterno_MUSER_Calculadora \
       CP VCC CP GND CP INV
-EN work/Sumador1Bit_MUSER_Calculadora 1543433639 \
+EN work/Sumador1Bit_MUSER_Calculadora 1543525030 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.vhf \
       PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
       PH unisim/VCOMPONENTS 1354696165
-AR work/Sumador1Bit_MUSER_Calculadora/BEHAVIORAL 1543433640 \
+AR work/Sumador1Bit_MUSER_Calculadora/BEHAVIORAL 1543525031 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.vhf \
-      EN work/Sumador1Bit_MUSER_Calculadora 1543433639 CP AND2 CP XOR2 CP OR2
-EN work/MultiInterno_MUSER_Calculadora 1543433641 \
+      EN work/Sumador1Bit_MUSER_Calculadora 1543525030 CP AND2 CP XOR2 CP OR2
+EN work/MultiInterno_MUSER_Calculadora 1543525032 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.vhf \
       PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
       PH unisim/VCOMPONENTS 1354696165
-AR work/MultiInterno_MUSER_Calculadora/BEHAVIORAL 1543433642 \
+AR work/MultiInterno_MUSER_Calculadora/BEHAVIORAL 1543525033 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.vhf \
-      EN work/MultiInterno_MUSER_Calculadora 1543433641 \
+      EN work/MultiInterno_MUSER_Calculadora 1543525032 \
       CP Sumador1Bit_MUSER_Calculadora CP GND CP AND2
-EN work/Multiplicador_MUSER_Calculadora 1543433643 \
+EN work/Multiplicador_MUSER_Calculadora 1543525034 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.vhf \
       PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
       PH unisim/VCOMPONENTS 1354696165
-AR work/Multiplicador_MUSER_Calculadora/BEHAVIORAL 1543433644 \
+AR work/Multiplicador_MUSER_Calculadora/BEHAVIORAL 1543525035 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.vhf \
-      EN work/Multiplicador_MUSER_Calculadora 1543433643 CP AND2 \
+      EN work/Multiplicador_MUSER_Calculadora 1543525034 CP AND2 \
       CP MultiInterno_MUSER_Calculadora
-EN work/Calculadora 1543433645 \
+EN work/Calculadora 1543525036 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.vhf \
       PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
       PH unisim/VCOMPONENTS 1354696165
-AR work/Calculadora/BEHAVIORAL 1543433646 \
+AR work/Calculadora/BEHAVIORAL 1543525037 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.vhf \
-      EN work/Calculadora 1543433645 CP Multiplicador_MUSER_Calculadora CP GND
+      EN work/Calculadora 1543525036 CP Multiplicador_MUSER_Calculadora CP GND
 FL C:/Users/alejandro/Desktop/proyectologica/proyect/COMPARADOR.vhd 2018/11/28.16:38:44 P.49d
-EN work/COMPARADOR 1543441219 \
+EN work/COMPARADOR 1543619193 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/COMPARADOR.vhd \
       PB ieee/std_logic_1164 1354696159 PB ieee/std_logic_arith 1354696160 \
       PB ieee/STD_LOGIC_UNSIGNED 1354696162
-AR work/COMPARADOR/COMPARACION 1543441220 \
+AR work/COMPARADOR/COMPARACION 1543619194 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/COMPARADOR.vhd \
-      EN work/COMPARADOR 1543441219
+      EN work/COMPARADOR 1543619193
 FL C:/Users/alejandro/Desktop/proyectologica/proyect/Comparador6Bits.vhd 2018/11/28.16:42:05 P.49d
 EN work/comparador6Bits 1543441341 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Comparador6Bits.vhd \
@@ -54,45 +50,224 @@ EN work/comparador6Bits 1543441341 \
 AR work/comparador6Bits/COMPARACION 1543441342 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Comparador6Bits.vhd \
       EN work/comparador6Bits 1543441341
-FL C:/Users/alejandro/Desktop/proyectologica/proyect/MultiInterno.vhf 2018/11/28.14:33:12 P.49d
-EN work/Sumador1Bit_MUSER_MultiInterno 1543433653 \
+FL C:/Users/alejandro/Desktop/proyectologica/proyect/contador.vhf 2018/11/29.20:04:06 P.49d
+EN work/FTC_MXILINX_Contador 1543619233 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/contador.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/FTC_MXILINX_Contador/BEHAVIORAL 1543619234 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/contador.vhf \
+      EN work/FTC_MXILINX_Contador 1543619233 CP XOR2 CP FDC
+EN work/contador 1543619235 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/contador.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/contador/BEHAVIORAL 1543619236 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/contador.vhf \
+      EN work/contador 1543619235 CP FTC_MXILINX_Contador CP AND2 CP VCC
+FL C:/Users/alejandro/Desktop/proyectologica/proyect/ContadorD.vhf 2018/11/29.19:44:34 P.49d
+EN work/ContadorD 1543538972 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/ContadorD.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/ContadorD/BEHAVIORAL 1543538973 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/ContadorD.vhf \
+      EN work/ContadorD 1543538972 CP FDC CP INV
+FL C:/Users/alejandro/Desktop/proyectologica/proyect/contadorPrueba.vhf 2018/11/29.15:13:23 P.49d
+EN work/contadorPrueba 1543522409 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/contadorPrueba.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/contadorPrueba/BEHAVIORAL 1543522410 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/contadorPrueba.vhf \
+      EN work/contadorPrueba 1543522409 CP OR2
+FL C:/Users/alejandro/Desktop/proyectologica/proyect/Division.vhf 2018/11/30.18:00:01 P.49d
+EN work/Registro_MUSER_Division 1543619217 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Division.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/Registro_MUSER_Division/BEHAVIORAL 1543619218 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Division.vhf \
+      EN work/Registro_MUSER_Division 1543619217 CP FD CP MUXF5
+EN work/RegistroA_MUSER_Division 1543619219 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Division.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/RegistroA_MUSER_Division/BEHAVIORAL 1543619220 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Division.vhf \
+      EN work/RegistroA_MUSER_Division 1543619219 CP MUXF5 \
+      CP Registro_MUSER_Division CP VCC
+EN work/FTC_MXILINX_Division 1543619221 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Division.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/FTC_MXILINX_Division/BEHAVIORAL 1543619222 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Division.vhf \
+      EN work/FTC_MXILINX_Division 1543619221 CP XOR2 CP FDC
+EN work/Contador_MUSER_Division 1543619223 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Division.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/Contador_MUSER_Division/BEHAVIORAL 1543619224 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Division.vhf \
+      EN work/Contador_MUSER_Division 1543619223 CP FTC_MXILINX_Division CP AND2 \
+      CP VCC
+EN work/Sumador1Bit_MUSER_Division 1543619225 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Division.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/Sumador1Bit_MUSER_Division/BEHAVIORAL 1543619226 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Division.vhf \
+      EN work/Sumador1Bit_MUSER_Division 1543619225 CP AND2 CP XOR2 CP OR2
+EN work/Sumador6bits_MUSER_Division 1543619227 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Division.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/Sumador6bits_MUSER_Division/BEHAVIORAL 1543619228 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Division.vhf \
+      EN work/Sumador6bits_MUSER_Division 1543619227 \
+      CP Sumador1Bit_MUSER_Division
+EN work/SumadorRestador6bits_MUSER_Division 1543619229 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Division.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/SumadorRestador6bits_MUSER_Division/BEHAVIORAL 1543619230 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Division.vhf \
+      EN work/SumadorRestador6bits_MUSER_Division 1543619229 \
+      CP Sumador6bits_MUSER_Division CP XOR2
+EN work/Division 1543619231 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Division.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/Division/BEHAVIORAL 1543619232 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Division.vhf \
+      EN work/Division 1543619231 CP COMPARADOR \
+      CP SumadorRestador6bits_MUSER_Division CP VCC CP OR2 CP muxBus6 \
+      CP Contador_MUSER_Division CP Registro_MUSER_Division \
+      CP RegistroA_MUSER_Division CP AND2 CP moore
+FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf 2018/11/30.18:00:00 P.49d
+EN work/Registro_MUSER_FullDiv 1543619199 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/Registro_MUSER_FullDiv/BEHAVIORAL 1543619200 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf \
+      EN work/Registro_MUSER_FullDiv 1543619199 CP FD CP MUXF5
+EN work/RegistroA_MUSER_FullDiv 1543619201 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/RegistroA_MUSER_FullDiv/BEHAVIORAL 1543619202 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf \
+      EN work/RegistroA_MUSER_FullDiv 1543619201 CP MUXF5 \
+      CP Registro_MUSER_FullDiv CP VCC
+EN work/FTC_MXILINX_FullDiv 1543619203 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/FTC_MXILINX_FullDiv/BEHAVIORAL 1543619204 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf \
+      EN work/FTC_MXILINX_FullDiv 1543619203 CP XOR2 CP FDC
+EN work/Contador_MUSER_FullDiv 1543619205 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/Contador_MUSER_FullDiv/BEHAVIORAL 1543619206 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf \
+      EN work/Contador_MUSER_FullDiv 1543619205 CP FTC_MXILINX_FullDiv CP AND2 \
+      CP VCC
+EN work/Sumador1Bit_MUSER_FullDiv 1543619207 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/Sumador1Bit_MUSER_FullDiv/BEHAVIORAL 1543619208 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf \
+      EN work/Sumador1Bit_MUSER_FullDiv 1543619207 CP AND2 CP XOR2 CP OR2
+EN work/Sumador6bits_MUSER_FullDiv 1543619209 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/Sumador6bits_MUSER_FullDiv/BEHAVIORAL 1543619210 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf \
+      EN work/Sumador6bits_MUSER_FullDiv 1543619209 CP Sumador1Bit_MUSER_FullDiv
+EN work/SumadorRestador6bits_MUSER_FullDiv 1543619211 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/SumadorRestador6bits_MUSER_FullDiv/BEHAVIORAL 1543619212 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf \
+      EN work/SumadorRestador6bits_MUSER_FullDiv 1543619211 \
+      CP Sumador6bits_MUSER_FullDiv CP XOR2
+EN work/Division_MUSER_FullDiv 1543619213 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/Division_MUSER_FullDiv/BEHAVIORAL 1543619214 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf \
+      EN work/Division_MUSER_FullDiv 1543619213 CP COMPARADOR \
+      CP SumadorRestador6bits_MUSER_FullDiv CP VCC CP OR2 CP muxBus6 \
+      CP Contador_MUSER_FullDiv CP Registro_MUSER_FullDiv \
+      CP RegistroA_MUSER_FullDiv CP AND2 CP moore
+EN work/FullDiv 1543619215 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/FullDiv/BEHAVIORAL 1543619216 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf \
+      EN work/FullDiv 1543619215 CP Division_MUSER_FullDiv CP VCC CP GND
+FL C:/Users/alejandro/Desktop/proyectologica/proyect/moore.vhd 2018/11/30.17:32:43 P.49d
+EN work/moore 1543619197 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/moore.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/moore/Behavioral 1543619198 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/moore.vhd \
+      EN work/moore 1543619197
+FL C:/Users/alejandro/Desktop/proyectologica/proyect/MultiInterno.vhf 2018/11/29.15:56:59 P.49d
+EN work/Sumador1Bit_MUSER_MultiInterno 1543525044 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/MultiInterno.vhf \
       PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
       PH unisim/VCOMPONENTS 1354696165
-AR work/Sumador1Bit_MUSER_MultiInterno/BEHAVIORAL 1543433654 \
+AR work/Sumador1Bit_MUSER_MultiInterno/BEHAVIORAL 1543525045 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/MultiInterno.vhf \
-      EN work/Sumador1Bit_MUSER_MultiInterno 1543433653 CP AND2 CP XOR2 CP OR2
-EN work/MultiInterno 1543433655 \
+      EN work/Sumador1Bit_MUSER_MultiInterno 1543525044 CP AND2 CP XOR2 CP OR2
+EN work/MultiInterno 1543525046 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/MultiInterno.vhf \
       PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
       PH unisim/VCOMPONENTS 1354696165
-AR work/MultiInterno/BEHAVIORAL 1543433656 \
+AR work/MultiInterno/BEHAVIORAL 1543525047 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/MultiInterno.vhf \
-      EN work/MultiInterno 1543433655 CP Sumador1Bit_MUSER_MultiInterno CP GND \
+      EN work/MultiInterno 1543525046 CP Sumador1Bit_MUSER_MultiInterno CP GND \
       CP AND2
-FL C:/Users/alejandro/Desktop/proyectologica/proyect/Multiplicador.vhf 2018/11/28.14:33:11 P.49d
-EN work/Sumador1Bit_MUSER_Multiplicador 1543433647 \
+FL C:/Users/alejandro/Desktop/proyectologica/proyect/Multiplicador.vhf 2018/11/29.15:57:01 P.49d
+EN work/Sumador1Bit_MUSER_Multiplicador 1543525038 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Multiplicador.vhf \
       PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
       PH unisim/VCOMPONENTS 1354696165
-AR work/Sumador1Bit_MUSER_Multiplicador/BEHAVIORAL 1543433648 \
+AR work/Sumador1Bit_MUSER_Multiplicador/BEHAVIORAL 1543525039 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Multiplicador.vhf \
-      EN work/Sumador1Bit_MUSER_Multiplicador 1543433647 CP AND2 CP XOR2 CP OR2
-EN work/MultiInterno_MUSER_Multiplicador 1543433649 \
+      EN work/Sumador1Bit_MUSER_Multiplicador 1543525038 CP AND2 CP XOR2 CP OR2
+EN work/MultiInterno_MUSER_Multiplicador 1543525040 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Multiplicador.vhf \
       PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
       PH unisim/VCOMPONENTS 1354696165
-AR work/MultiInterno_MUSER_Multiplicador/BEHAVIORAL 1543433650 \
+AR work/MultiInterno_MUSER_Multiplicador/BEHAVIORAL 1543525041 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Multiplicador.vhf \
-      EN work/MultiInterno_MUSER_Multiplicador 1543433649 \
+      EN work/MultiInterno_MUSER_Multiplicador 1543525040 \
       CP Sumador1Bit_MUSER_Multiplicador CP GND CP AND2
-EN work/Multiplicador 1543433651 \
+EN work/Multiplicador 1543525042 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Multiplicador.vhf \
       PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
       PH unisim/VCOMPONENTS 1354696165
-AR work/Multiplicador/BEHAVIORAL 1543433652 \
+AR work/Multiplicador/BEHAVIORAL 1543525043 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Multiplicador.vhf \
-      EN work/Multiplicador 1543433651 CP AND2 CP MultiInterno_MUSER_Multiplicador
+      EN work/Multiplicador 1543525042 CP AND2 CP MultiInterno_MUSER_Multiplicador
+FL C:/Users/alejandro/Desktop/proyectologica/proyect/muxBus6.vhd 2018/11/28.18:37:47 P.49d
+EN work/muxBus6 1543619195 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/muxBus6.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/muxBus6/Behavioral 1543619196 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/muxBus6.vhd \
+      EN work/muxBus6 1543619195
 FL C:/Users/alejandro/Desktop/proyectologica/proyect/pruebaRaiz.vhf 2018/11/28.15:09:19 P.49d
 EN work/raizInterno_MUSER_pruebaRaiz 1543435939 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/pruebaRaiz.vhf \
@@ -161,51 +336,74 @@ EN work/raizInterno 1543435949 \
 AR work/raizInterno/BEHAVIORAL 1543435950 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/raizInterno.vhf \
       EN work/raizInterno 1543435949 CP AND3B1 CP AND3 CP AND3B2 CP OR4 CP MUXF5
-FL C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador1Bit.vhf 2018/11/27.16:34:44 P.49d
-EN work/Sumador1Bit 1543433657 \
+FL C:/Users/alejandro/Desktop/proyectologica/proyect/Registro.vhf 2018/11/30.17:40:50 P.49d
+EN work/Registro 1543619247 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Registro.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/Registro/BEHAVIORAL 1543619248 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/Registro.vhf \
+      EN work/Registro 1543619247 CP FD CP MUXF5
+FL C:/Users/alejandro/Desktop/proyectologica/proyect/RegistroA.vhf 2018/11/30.17:40:50 P.49d
+EN work/Registro_MUSER_RegistroA 1543619237 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/RegistroA.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/Registro_MUSER_RegistroA/BEHAVIORAL 1543619238 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/RegistroA.vhf \
+      EN work/Registro_MUSER_RegistroA 1543619237 CP FD CP MUXF5
+EN work/RegistroA 1543619239 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/RegistroA.vhf \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
+      PH unisim/VCOMPONENTS 1354696165
+AR work/RegistroA/BEHAVIORAL 1543619240 \
+      FL C:/Users/alejandro/Desktop/proyectologica/proyect/RegistroA.vhf \
+      EN work/RegistroA 1543619239 CP MUXF5 CP Registro_MUSER_RegistroA CP VCC
+FL C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador1Bit.vhf 2018/11/29.15:56:59 P.49d
+EN work/Sumador1Bit 1543619253 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador1Bit.vhf \
       PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
       PH unisim/VCOMPONENTS 1354696165
-AR work/Sumador1Bit/BEHAVIORAL 1543433658 \
+AR work/Sumador1Bit/BEHAVIORAL 1543619254 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador1Bit.vhf \
-      EN work/Sumador1Bit 1543433657 CP AND2 CP XOR2 CP OR2
-FL C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador6bits.vhf 2018/11/27.16:34:44 P.49d
-EN work/Sumador1Bit_MUSER_Sumador6bits 1543358913 \
+      EN work/Sumador1Bit 1543619253 CP AND2 CP XOR2 CP OR2
+FL C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador6bits.vhf 2018/11/30.17:40:53 P.49d
+EN work/Sumador1Bit_MUSER_Sumador6bits 1543619249 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador6bits.vhf \
       PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
       PH unisim/VCOMPONENTS 1354696165
-AR work/Sumador1Bit_MUSER_Sumador6bits/BEHAVIORAL 1543358914 \
+AR work/Sumador1Bit_MUSER_Sumador6bits/BEHAVIORAL 1543619250 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador6bits.vhf \
-      EN work/Sumador1Bit_MUSER_Sumador6bits 1543358913 CP AND2 CP XOR2 CP OR2
-EN work/Sumador6bits 1543358915 \
+      EN work/Sumador1Bit_MUSER_Sumador6bits 1543619249 CP AND2 CP XOR2 CP OR2
+EN work/Sumador6bits 1543619251 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador6bits.vhf \
       PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
       PH unisim/VCOMPONENTS 1354696165
-AR work/Sumador6bits/BEHAVIORAL 1543358916 \
+AR work/Sumador6bits/BEHAVIORAL 1543619252 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador6bits.vhf \
-      EN work/Sumador6bits 1543358915 CP Sumador1Bit_MUSER_Sumador6bits
-FL C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.vhf 2018/11/27.17:48:20 P.49d
-EN work/Sumador1Bit_MUSER_SumadorRestador6bits 1543358907 \
+      EN work/Sumador6bits 1543619251 CP Sumador1Bit_MUSER_Sumador6bits
+FL C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.vhf 2018/11/30.17:40:52 P.49d
+EN work/Sumador1Bit_MUSER_SumadorRestador6bits 1543619241 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.vhf \
       PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
       PH unisim/VCOMPONENTS 1354696165
-AR work/Sumador1Bit_MUSER_SumadorRestador6bits/BEHAVIORAL 1543358908 \
+AR work/Sumador1Bit_MUSER_SumadorRestador6bits/BEHAVIORAL 1543619242 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.vhf \
-      EN work/Sumador1Bit_MUSER_SumadorRestador6bits 1543358907 CP AND2 CP XOR2 \
+      EN work/Sumador1Bit_MUSER_SumadorRestador6bits 1543619241 CP AND2 CP XOR2 \
       CP OR2
-EN work/Sumador6bits_MUSER_SumadorRestador6bits 1543358909 \
+EN work/Sumador6bits_MUSER_SumadorRestador6bits 1543619243 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.vhf \
       PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
       PH unisim/VCOMPONENTS 1354696165
-AR work/Sumador6bits_MUSER_SumadorRestador6bits/BEHAVIORAL 1543358910 \
+AR work/Sumador6bits_MUSER_SumadorRestador6bits/BEHAVIORAL 1543619244 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.vhf \
-      EN work/Sumador6bits_MUSER_SumadorRestador6bits 1543358909 \
+      EN work/Sumador6bits_MUSER_SumadorRestador6bits 1543619243 \
       CP Sumador1Bit_MUSER_SumadorRestador6bits
-EN work/SumadorRestador6bits 1543358911 \
+EN work/SumadorRestador6bits 1543619245 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.vhf \
       PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164 LB UNISIM \
       PH unisim/VCOMPONENTS 1354696165
-AR work/SumadorRestador6bits/BEHAVIORAL 1543358912 \
+AR work/SumadorRestador6bits/BEHAVIORAL 1543619246 \
       FL C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.vhf \
-      EN work/SumadorRestador6bits 1543358911 \
+      EN work/SumadorRestador6bits 1543619245 \
       CP Sumador6bits_MUSER_SumadorRestador6bits CP XOR2

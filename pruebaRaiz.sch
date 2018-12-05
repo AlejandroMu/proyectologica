@@ -10,10 +10,7 @@
         <signal name="A1" />
         <signal name="A2" />
         <signal name="A3" />
-        <signal name="XLXN_5" />
         <signal name="XLXN_6" />
-        <signal name="XLXN_7" />
-        <signal name="XLXN_8" />
         <signal name="S0" />
         <signal name="S1" />
         <signal name="S3" />

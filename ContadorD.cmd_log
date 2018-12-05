@@ -1,0 +1,7 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl ContadorD_drc.vhf -w C:/Users/alejandro/Desktop/proyectologica/proyect/ContadorD.sch 
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/ContadorD.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/ContadorD.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc ContadorD.ucf -p xc3s500e-fg320-4 ContadorD.ngc ContadorD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o ContadorD_map.ncd ContadorD.ngd ContadorD.pcf 
+par -w -intstyle ise -ol high -t 1 ContadorD_map.ncd ContadorD.ncd ContadorD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml ContadorD.twx ContadorD.ncd -o ContadorD.twr ContadorD.pcf -ucf ContadorD.ucf 
+bitgen -intstyle ise -f ContadorD.ut ContadorD.ncd 

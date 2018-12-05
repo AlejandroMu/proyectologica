@@ -7,32 +7,49 @@
    <ItemView engineview="SynthesisOnly" guiview="Source" compilemode="AutoCompile" >
       <ClosedNodes>
          <ClosedNodesVersion>2</ClosedNodesVersion>
+         <ClosedNode>/Calculadora C:|Users|alejandro|Desktop|proyectologica|proyect|Calculadora.sch</ClosedNode>
+         <ClosedNode>/Calculadora C:|Users|alejandro|Desktop|proyectologica|proyect|Calculadora.sch/XLXI_1 - Raiz</ClosedNode>
+         <ClosedNode>/Calculadora C:|Users|alejandro|Desktop|proyectologica|proyect|Calculadora.sch/XLXI_3 - Multiplicador</ClosedNode>
+         <ClosedNode>/Calculadora C:|Users|alejandro|Desktop|proyectologica|proyect|Calculadora.sch/XLXI_3 - Multiplicador/XLXI_16 - MultiInterno</ClosedNode>
+         <ClosedNode>/Calculadora C:|Users|alejandro|Desktop|proyectologica|proyect|Calculadora.sch/XLXI_3 - Multiplicador/XLXI_17 - MultiInterno</ClosedNode>
+         <ClosedNode>/Calculadora C:|Users|alejandro|Desktop|proyectologica|proyect|Calculadora.sch/XLXI_3 - Multiplicador/XLXI_18 - MultiInterno</ClosedNode>
+         <ClosedNode>/Calculadora C:|Users|alejandro|Desktop|proyectologica|proyect|Calculadora.sch/XLXI_3 - Multiplicador/XLXI_19 - MultiInterno</ClosedNode>
+         <ClosedNode>/Calculadora C:|Users|alejandro|Desktop|proyectologica|proyect|Calculadora.sch/XLXI_3 - Multiplicador/XLXI_20 - MultiInterno</ClosedNode>
+         <ClosedNode>/Division C:|Users|alejandro|Desktop|proyectologica|proyect|Division.sch/XLXI_10 - Contador</ClosedNode>
+         <ClosedNode>/Division C:|Users|alejandro|Desktop|proyectologica|proyect|Division.sch/XLXI_16 - RegistroA</ClosedNode>
+         <ClosedNode>/Division C:|Users|alejandro|Desktop|proyectologica|proyect|Division.sch/XLXI_4 - SumadorRestador6bits</ClosedNode>
+         <ClosedNode>/FullDiv C:|Users|alejandro|Desktop|proyectologica|proyect|FullDiv.sch</ClosedNode>
+         <ClosedNode>/FullDiv C:|Users|alejandro|Desktop|proyectologica|proyect|FullDiv.sch/XLXI_1 - Division/XLXI_10 - Contador</ClosedNode>
+         <ClosedNode>/FullDiv C:|Users|alejandro|Desktop|proyectologica|proyect|FullDiv.sch/XLXI_1 - Division/XLXI_16 - RegistroA</ClosedNode>
+         <ClosedNode>/FullDiv C:|Users|alejandro|Desktop|proyectologica|proyect|FullDiv.sch/XLXI_1 - Division/XLXI_4 - SumadorRestador6bits</ClosedNode>
+         <ClosedNode>/MultiInterno C:|Users|alejandro|Desktop|proyectologica|proyect|MultiInterno.sch</ClosedNode>
+         <ClosedNode>/Multiplicador C:|Users|alejandro|Desktop|proyectologica|proyect|Multiplicador.sch</ClosedNode>
+         <ClosedNode>/Raiz C:|Users|alejandro|Desktop|proyectologica|proyect|Raiz.sch</ClosedNode>
          <ClosedNode>/Sumador6bits C:|Users|alejandro|Desktop|proyectologica|proyect|Sumador6bits.sch</ClosedNode>
+         <ClosedNode>/SumadorRestador6bits C:|Users|alejandro|Desktop|proyectologica|proyect|SumadorRestador6bits.sch</ClosedNode>
          <ClosedNode>/SumadorRestador6bits C:|Users|alejandro|Desktop|proyectologica|proyect|SumadorRestador6bits.sch/XLXI_1 - Sumador6bits</ClosedNode>
          <ClosedNode>/sqrt8 - test C:|Users|alejandro|Desktop|proyectologica|proyect|raizCuadrada.vhd</ClosedNode>
       </ClosedNodes>
-      <SelectedItems>
-         <SelectedItem>SumadorRestador6bits (C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.sch)</SelectedItem>
-      </SelectedItems>
+      <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000100000000000000000000000000000000020200000001000000010000006400000162000000020000000000000000000000000200000064ffffffff000000810000000300000002000001620000000100000003000000000000000100000003</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000010000000000000000000000000000000002020000000100000001000000640000012f000000020000000000000000000000000200000064ffffffff0000008100000003000000020000012f0000000100000003000000000000000100000003</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >true</UserChangedColumnWidths>
-      <CurrentItem>SumadorRestador6bits (C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.sch)</CurrentItem>
+      <CurrentItem>XLXI_1 - raizInterno (C:/Users/alejandro/Desktop/proyectologica/proyect/raizInterno.sch)</CurrentItem>
    </ItemView>
    <ItemView engineview="SynthesisOnly" sourcetype="" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
-         <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem></SelectedItem>
+         <SelectedItem>Design Utilities</SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem></CurrentItem>
+      <CurrentItem>Design Utilities</CurrentItem>
    </ItemView>
    <ItemView guiview="File" >
       <ClosedNodes>
@@ -41,7 +58,7 @@
       <SelectedItems/>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000130000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000000640000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff0000000000000001000000000000000001000000000000000000000000000000000000027d000000040101000100000000000000000000000064ffffffff000000810000000000000004000000420000000100000000000000240000000100000000000000660000000100000000000001b10000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem>Sumador1Bit.sch</CurrentItem>
    </ItemView>
@@ -49,20 +66,23 @@
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
-      <SelectedItems/>
+      <SelectedItems>
+         <SelectedItem>raizInterno.sch</SelectedItem>
+      </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff00000000000000010000000000000000010000000000000000000000000000000000000109000000010001000100000000000000000000000064ffffffff000000810000000000000001000001090000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000000000000000100000000000000000000000000000000000000c9000000010001000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>work</CurrentItem>
+      <CurrentItem>raizInterno.sch</CurrentItem>
    </ItemView>
-   <SourceProcessView>000000ff00000000000000020000011b0000011b01000000050100000002</SourceProcessView>
+   <SourceProcessView>000000ff000000000000000200000106000000b901000000050100000002</SourceProcessView>
    <CurrentView>Implementation</CurrentView>
    <ItemView engineview="SynthesisOnly" sourcetype="DESUT_SCHEMATIC" guiview="Process" >
       <ClosedNodes>
          <ClosedNodesVersion>1</ClosedNodesVersion>
          <ClosedNode>Configure Target Device</ClosedNode>
          <ClosedNode>Design Utilities</ClosedNode>
+         <ClosedNode>Design Utilities/Compile HDL Simulation Libraries</ClosedNode>
          <ClosedNode>Implement Design</ClosedNode>
          <ClosedNode>Synthesize - XST</ClosedNode>
          <ClosedNode>User Constraints</ClosedNode>
@@ -72,7 +92,7 @@
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
-      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000c9000000010000000100000000000000000000000064ffffffff000000810000000000000001000000c90000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
       <CurrentItem></CurrentItem>
    </ItemView>
@@ -81,12 +101,25 @@
          <ClosedNodesVersion>1</ClosedNodesVersion>
       </ClosedNodes>
       <SelectedItems>
-         <SelectedItem>Create Schematic Symbol</SelectedItem>
+         <SelectedItem></SelectedItem>
       </SelectedItems>
       <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
       <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
       <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
       <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
-      <CurrentItem>Create Schematic Symbol</CurrentItem>
+      <CurrentItem></CurrentItem>
+   </ItemView>
+   <ItemView engineview="SynthesisOnly" sourcetype="DESUT_UCF" guiview="Process" >
+      <ClosedNodes>
+         <ClosedNodesVersion>1</ClosedNodesVersion>
+      </ClosedNodes>
+      <SelectedItems>
+         <SelectedItem/>
+      </SelectedItems>
+      <ScrollbarPosition orientation="vertical" >0</ScrollbarPosition>
+      <ScrollbarPosition orientation="horizontal" >0</ScrollbarPosition>
+      <ViewHeaderState orientation="horizontal" >000000ff000000000000000100000001000000000000000000000000000000000000000000000000f8000000010000000100000000000000000000000064ffffffff000000810000000000000001000000f80000000100000000</ViewHeaderState>
+      <UserChangedColumnWidths orientation="horizontal" >false</UserChangedColumnWidths>
+      <CurrentItem/>
    </ItemView>
 </Project>

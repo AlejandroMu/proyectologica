@@ -18,17 +18,6 @@
         <signal name="x" />
         <signal name="y" />
         <signal name="b" />
-        <signal name="XLXN_30" />
-        <signal name="XLXN_31" />
-        <signal name="XLXN_32" />
-        <signal name="XLXN_33" />
-        <signal name="XLXN_34" />
-        <signal name="XLXN_35" />
-        <signal name="XLXN_36" />
-        <signal name="XLXN_37" />
-        <signal name="XLXN_40" />
-        <signal name="XLXN_41" />
-        <signal name="XLXN_42" />
         <port polarity="Input" name="u" />
         <port polarity="Output" name="d" />
         <port polarity="Output" name="b0" />

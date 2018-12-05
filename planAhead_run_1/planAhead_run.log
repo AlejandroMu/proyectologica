@@ -5,34 +5,28 @@
 
 INFO: [Common 17-78] Attempting to get a license: PlanAhead
 INFO: [Common 17-290] Got license for PlanAhead
-INFO: [Common 17-86] Your PlanAhead license expires in -1823 day(s)
+INFO: [Common 17-86] Your PlanAhead license expires in -1824 day(s)
 INFO: [Device 21-36] Loading parts and site information from D:/xilins/14.4/ISE_DS/PlanAhead/data/parts/arch.xml
 Parsing RTL primitives file [D:/xilins/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
 Finished parsing RTL primitives file [D:/xilins/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/prims/rtl_prims.xml]
 start_gui
 source C:/Users/alejandro/Desktop/proyectologica/proyect/pa.fromHdl.tcl
 # create_project -name proyect -dir "C:/Users/alejandro/Desktop/proyectologica/proyect/planAhead_run_1" -part xc3s500efg320-4
-create_project: Time (s): elapsed = 00:00:10 . Memory (MB): peak = 392.051 ; gain = 67.766
+create_project: Time (s): elapsed = 00:00:09 . Memory (MB): peak = 384.242 ; gain = 61.918
 # set_param project.pinAheadLayout yes
 # set srcset [get_property srcset [current_run -impl]]
-# set_property target_constrs_file "Calculadora.ucf" [current_fileset -constrset]
-Adding file 'C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.ucf' to fileset 'constrs_1'
-# set hdlfile [add_files [list {raizInterno.vhf}]]
+# set_property target_constrs_file "contador.ucf" [current_fileset -constrset]
+Adding file 'C:/Users/alejandro/Desktop/proyectologica/proyect/contador.ucf' to fileset 'constrs_1'
+# set hdlfile [add_files [list {contador.vhf}]]
 # set_property file_type VHDL $hdlfile
 # set_property library work $hdlfile
-# set hdlfile [add_files [list {Raiz.vhf}]]
-# set_property file_type VHDL $hdlfile
-# set_property library work $hdlfile
-# set hdlfile [add_files [list {Calculadora.vhf}]]
-# set_property file_type VHDL $hdlfile
-# set_property library work $hdlfile
-# set_property top Calculadora $srcset
-# add_files [list {Calculadora.ucf}] -fileset [get_property constrset [current_run]]
+# set_property top contador $srcset
+# add_files [list {contador.ucf}] -fileset [get_property constrset [current_run]]
 # open_rtl_design -part xc3s500efg320-4
 Using Verific elaboration
 Parsing VHDL file "D:/xilins/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
 Parsing VHDL file "D:/xilins/14.4/ISE_DS/PlanAhead/data/parts/xilinx/rtl/lib/synplify/synattr.vhd" into library synplify
-Parsing VHDL file "C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.vhf" into library work
+Parsing VHDL file "C:/Users/alejandro/Desktop/proyectologica/proyect/contador.vhf" into library work
 INFO: [Designutils 20-910] Reading macro library D:/xilins/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn
 Parsing EDIF File [D:/xilins/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
 Finished Parsing EDIF File [D:/xilins/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/hd_int_macros.edn]
@@ -44,30 +38,23 @@ INFO: [Device 21-19] Loading pkg sso from D:/xilins/14.4/ISE_DS/PlanAhead/data\p
 Loading list of drcs for the architecture : D:/xilins/14.4/ISE_DS/PlanAhead/data\./parts/xilinx/spartan3e/spartan3e/drc.xml
 INFO: [Timing 38-77] Reading timing library D:/xilins/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
 INFO: [Timing 38-34] Done reading timing library D:/xilins/14.4/ISE_DS/PlanAhead/data\parts/xilinx/spartan3e/spartan3e/spartan3e-4.lib.
-Parsing UCF File [C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.ucf]
-Finished Parsing UCF File [C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.ucf]
+Parsing UCF File [C:/Users/alejandro/Desktop/proyectologica/proyect/contador.ucf]
+Finished Parsing UCF File [C:/Users/alejandro/Desktop/proyectologica/proyect/contador.ucf]
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Phase 0 | Netlist Checksum: 47bf3179
-open_rtl_design: Time (s): elapsed = 00:00:37 . Memory (MB): peak = 503.566 ; gain = 106.438
+Phase 0 | Netlist Checksum: 8adf1694
+open_rtl_design: Time (s): elapsed = 00:00:23 . Memory (MB): peak = 494.879 ; gain = 109.707
 update_compile_order -fileset sim_1
 startgroup
-set_property package_pin L13 [get_ports A0]
+set_property package_pin N17 [get_ports clk]
 endgroup
 startgroup
-set_property package_pin L14 [get_ports A1]
+set_property package_pin L14 [get_ports clr]
 endgroup
 startgroup
-set_property package_pin H18 [get_ports A2]
+set_property package_pin L13 [get_ports D]
 endgroup
-startgroup
-set_property package_pin N17 [get_ports A3]
-endgroup
-set_property pulltype PULLUP [get_ports [list A0]]
-set_property pulltype PULLUP [get_ports [list A1]]
-set_property pulltype PULLUP [get_ports [list A2]]
-set_property pulltype PULLUP [get_ports [list A3]]
 startgroup
 set_property package_pin F12 [get_ports S0]
 endgroup
@@ -77,12 +64,20 @@ endgroup
 startgroup
 set_property package_pin E11 [get_ports S2]
 endgroup
-save_constraints
 startgroup
 set_property package_pin F11 [get_ports S3]
 endgroup
+startgroup
+set_property package_pin C11 [get_ports S4]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports S5]
+endgroup
+set_property pulltype PULLUP [get_ports [list clk]]
+set_property pulltype PULLUP [get_ports [list clr]]
+set_property pulltype PULLUP [get_ports [list D]]
 save_constraints
 exit
 ERROR: [Common 17-39] 'stop_gui' failed due to earlier errors.
-INFO: [Common 17-206] Exiting PlanAhead at Wed Nov 28 12:51:38 2018...
+INFO: [Common 17-206] Exiting PlanAhead at Thu Nov 29 15:50:23 2018...
 INFO: [Common 17-83] Releasing license: PlanAhead

@@ -1,7 +1,7 @@
 Release 14.4 par P.49d (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-ALEJANDRO-PC::  Wed Nov 28 14:49:20 2018
+ALEJANDRO-PC::  Thu Nov 29 15:57:49 2018
 
 par -w -intstyle ise -ol high -t 1 Calculadora_map.ncd Calculadora.ncd
 Calculadora.pcf 
@@ -30,14 +30,10 @@ Design Summary Report:
    Number of External Input IOBs                  4
 
       Number of External Input IBUFs              4
-        Number of LOCed External Input IBUFs      4 out of 4     100%
-
 
    Number of External Output IOBs                 8
 
       Number of External Output IOBs              8
-        Number of LOCed External Output IOBs      8 out of 8     100%
-
 
    Number of External Bidir IOBs                  0
 
@@ -52,46 +48,54 @@ Placer effort level (-pl):    High
 Placer cost table entry (-t): 1
 Router effort level (-rl):    High 
 
-Starting initial Timing Analysis.  REAL time: 5 secs 
-Finished initial Timing Analysis.  REAL time: 5 secs 
+Starting initial Timing Analysis.  REAL time: 4 secs 
+Finished initial Timing Analysis.  REAL time: 4 secs 
 
 
 Starting Placer
-Total REAL time at the beginning of Placer: 6 secs 
-Total CPU  time at the beginning of Placer: 4 secs 
+Total REAL time at the beginning of Placer: 4 secs 
+Total CPU  time at the beginning of Placer: 3 secs 
 
 Phase 1.1  Initial Placement Analysis
-Phase 1.1  Initial Placement Analysis (Checksum:b983dee2) REAL time: 6 secs 
+Phase 1.1  Initial Placement Analysis (Checksum:60) REAL time: 4 secs 
 
 Phase 2.7  Design Feasibility Check
-Phase 2.7  Design Feasibility Check (Checksum:b983dee2) REAL time: 6 secs 
+Phase 2.7  Design Feasibility Check (Checksum:60) REAL time: 4 secs 
 
 Phase 3.31  Local Placement Optimization
-Phase 3.31  Local Placement Optimization (Checksum:b983dee2) REAL time: 6 secs 
+Phase 3.31  Local Placement Optimization (Checksum:60) REAL time: 4 secs 
 
 Phase 4.2  Initial Clock and IO Placement
-Phase 4.2  Initial Clock and IO Placement (Checksum:b983dee2) REAL time: 6 secs 
+...........
+Phase 4.2  Initial Clock and IO Placement (Checksum:60) REAL time: 5 secs 
 
 Phase 5.30  Global Clock Region Assignment
-Phase 5.30  Global Clock Region Assignment (Checksum:b983dee2) REAL time: 6 secs 
+Phase 5.30  Global Clock Region Assignment (Checksum:60) REAL time: 5 secs 
 
 Phase 6.36  Local Placement Optimization
-Phase 6.36  Local Placement Optimization (Checksum:b983dee2) REAL time: 6 secs 
+Phase 6.36  Local Placement Optimization (Checksum:60) REAL time: 5 secs 
 
-Phase 7.8  Global Placement
-......
-Phase 7.8  Global Placement (Checksum:9df72da) REAL time: 6 secs 
+Phase 7.3  Local Placement Optimization
+...........
+Phase 7.3  Local Placement Optimization (Checksum:3522b11) REAL time: 5 secs 
 
 Phase 8.5  Local Placement Optimization
-Phase 8.5  Local Placement Optimization (Checksum:9df72da) REAL time: 7 secs 
+Phase 8.5  Local Placement Optimization (Checksum:3522b11) REAL time: 5 secs 
 
-Phase 9.18  Placement Optimization
-Phase 9.18  Placement Optimization (Checksum:b235cba) REAL time: 7 secs 
+Phase 9.8  Global Placement
+..
+Phase 9.8  Global Placement (Checksum:60c41b6c) REAL time: 5 secs 
 
 Phase 10.5  Local Placement Optimization
-Phase 10.5  Local Placement Optimization (Checksum:b235cba) REAL time: 7 secs 
+Phase 10.5  Local Placement Optimization (Checksum:60c41b6c) REAL time: 5 secs 
 
-Total REAL time to Placer completion: 7 secs 
+Phase 11.18  Placement Optimization
+Phase 11.18  Placement Optimization (Checksum:60c41b6c) REAL time: 5 secs 
+
+Phase 12.5  Local Placement Optimization
+Phase 12.5  Local Placement Optimization (Checksum:60c41b6c) REAL time: 5 secs 
+
+Total REAL time to Placer completion: 5 secs 
 Total CPU  time to Placer completion: 4 secs 
 Writing design to file Calculadora.ncd
 
@@ -100,28 +104,28 @@ Writing design to file Calculadora.ncd
 Starting Router
 
 
-Phase  1  : 22 unrouted;      REAL time: 18 secs 
+Phase  1  : 22 unrouted;      REAL time: 14 secs 
 
-Phase  2  : 22 unrouted;      REAL time: 18 secs 
+Phase  2  : 22 unrouted;      REAL time: 14 secs 
 
-Phase  3  : 7 unrouted;      REAL time: 18 secs 
+Phase  3  : 2 unrouted;      REAL time: 14 secs 
 
-Phase  4  : 7 unrouted; (Par is working to improve performance)     REAL time: 20 secs 
+Phase  4  : 2 unrouted; (Par is working to improve performance)     REAL time: 15 secs 
 
-Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 20 secs 
+Phase  5  : 0 unrouted; (Par is working to improve performance)     REAL time: 15 secs 
 
 Updating file: Calculadora.ncd with current fully routed design.
 
-Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 20 secs 
+Phase  6  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
 
-Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 20 secs 
+Phase  7  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
 
-Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 20 secs 
+Phase  8  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
 
-Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 20 secs 
+Phase  9  : 0 unrouted; (Par is working to improve performance)     REAL time: 16 secs 
 
-Total REAL time to Router completion: 20 secs 
-Total CPU time to Router completion: 15 secs 
+Total REAL time to Router completion: 16 secs 
+Total CPU time to Router completion: 14 secs 
 
 Partition Implementation Status
 -------------------------------
@@ -140,10 +144,10 @@ Generating Pad Report.
 
 All signals are completely routed.
 
-Total REAL time to PAR completion: 21 secs 
-Total CPU time to PAR completion: 17 secs 
+Total REAL time to PAR completion: 17 secs 
+Total CPU time to PAR completion: 16 secs 
 
-Peak Memory Usage:  257 MB
+Peak Memory Usage:  254 MB
 
 Placement: Completed - No errors found.
 Routing: Completed - No errors found.

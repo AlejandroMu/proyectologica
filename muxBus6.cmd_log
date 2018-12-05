@@ -1,0 +1,2 @@
+vhdtdtfi -lib work muxBus6.vhd -prj proyect -o muxBus6.spl -module muxBus6 -template D:/xilins/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e muxBus6.spl C:/Users/alejandro/Desktop/proyectologica/proyect/muxBus6.sym 

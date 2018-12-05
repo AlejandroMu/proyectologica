@@ -1,0 +1,17 @@
+
+# PlanAhead Generated physical constraints 
+
+NET "CLK" LOC = C9;
+NET "CLR" LOC = L14;
+NET "D" LOC = L13;
+NET "S0" LOC = F12;
+NET "S1" LOC = E12;
+NET "S2" LOC = E11;
+NET "S3" LOC = F11;
+NET "S4" LOC = C11;
+NET "S5" LOC = D11;
+
+# PlanAhead Generated IO constraints 
+
+NET "CLR" PULLUP;
+NET "D" PULLUP;

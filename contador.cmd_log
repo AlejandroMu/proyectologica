@@ -1,0 +1,84 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl contador_drc.vhf -w C:/Users/alejandro/Desktop/proyectologica/proyect/contador.sch 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl contador_drc.vhf -w C:/Users/alejandro/Desktop/proyectologica/proyect/contador.sch 
+sch2sym -intstyle ise -family spartan3e -refsym contador C:/Users/alejandro/Desktop/proyectologica/proyect/contador.sch C:/Users/alejandro/Desktop/proyectologica/proyect/contador.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl contador_drc.vhf -w C:/Users/alejandro/Desktop/proyectologica/proyect/contador.sch 
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/contador.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contadorPrueba.ucf -p xc3s500e-fg320-4 contador.ngc contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -t 1 contador_map.ncd contador.ncd contador.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contadorPrueba.ucf -p xc3s500e-fg320-4 contador.ngc contador.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contador.ucf -p xc3s500e-fg320-4 contador.ngc contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -t 1 contador_map.ncd contador.ncd contador.pcf 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl contador_drc.vhf -w C:/Users/alejandro/Desktop/proyectologica/proyect/contador.sch 
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/contador.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc contador.ucf -p xc3s500e-fg320-4 contador.ngc contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o contador_map.ncd contador.ngd contador.pcf 
+par -w -intstyle ise -ol high -t 1 contador_map.ncd contador.ncd contador.pcf 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl Contador_drc.vhf -w C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.sch 
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Contador.ucf -p xc3s500e-fg320-4 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Contador.ucf -p xc3s500e-fg320-4 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Contador.ucf -p xc3s500e-fg320-4 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Contador.ucf -p xc3s500e-fg320-4 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf Contador.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Contador.ucf -p xc3s500e-fg320-4 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Contador.ucf -p xc3s500e-fg320-4 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf Contador.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Contador.ucf -p xc3s500e-fg320-4 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf Contador.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Contador.ucf -p xc3s500e-fg320-4 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf Contador.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Contador.ucf -p xc3s500e-fg320-4 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf Contador.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Contador.ucf -p xc3s500e-fg320-4 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf Contador.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Contador.ucf -p xc3s500e-fg320-4 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf Contador.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Contador.ucf -uc ContadorD.ucf -p xc3s500e-fg320-4 Contador.ngc Contador.ngd  
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Contador.ucf -p xc3s500e-fg320-4 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf Contador.ucf 
+bitgen -intstyle ise -f Contador.ut Contador.ncd 
+sch2sym -intstyle ise -family spartan3e -refsym Contador C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.sch C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.sym 
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Contador.ucf -p xc3s500e-fg320-4 Contador.ngc Contador.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o Contador_map.ncd Contador.ngd Contador.pcf 
+par -w -intstyle ise -ol high -t 1 Contador_map.ncd Contador.ncd Contador.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Contador.twx Contador.ncd -o Contador.twr Contador.pcf -ucf Contador.ucf 

@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.4
 --  \   \         Application : sch2hdl
 --  /   /         Filename : SumadorRestador6bits.vhf
--- /___/   /\     Timestamp : 11/27/2018 17:48:20
+-- /___/   /\     Timestamp : 11/30/2018 17:40:52
 -- \   \  /  \ 
 --  \___\/\___\ 
 --

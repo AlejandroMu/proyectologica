@@ -13,19 +13,7 @@
         <signal name="A3" />
         <signal name="A4" />
         <signal name="A5" />
-        <signal name="XLXN_10" />
-        <signal name="XLXN_11" />
-        <signal name="XLXN_12" />
-        <signal name="XLXN_13" />
-        <signal name="XLXN_14" />
         <signal name="S0" />
-        <signal name="XLXN_16" />
-        <signal name="XLXN_21" />
-        <signal name="XLXN_22" />
-        <signal name="XLXN_23" />
-        <signal name="XLXN_24" />
-        <signal name="XLXN_26" />
-        <signal name="XLXN_27" />
         <signal name="B1" />
         <signal name="XLXN_29" />
         <signal name="XLXN_30" />
@@ -45,8 +33,6 @@
         <signal name="S3" />
         <signal name="S4" />
         <signal name="S2" />
-        <signal name="XLXN_49" />
-        <signal name="XLXN_50" />
         <signal name="XLXN_52" />
         <signal name="XLXN_53" />
         <signal name="XLXN_54" />
@@ -59,31 +45,12 @@
         <signal name="XLXN_61" />
         <signal name="XLXN_62" />
         <signal name="XLXN_63" />
-        <signal name="XLXN_64" />
-        <signal name="XLXN_65" />
-        <signal name="XLXN_66" />
-        <signal name="c">
-        </signal>
-        <signal name="S5">
-        </signal>
-        <signal name="S6">
-        </signal>
-        <signal name="S7">
-        </signal>
-        <signal name="S8">
-        </signal>
-        <signal name="S9">
-        </signal>
-        <signal name="XLXN_79" />
-        <signal name="XLXN_82" />
-        <signal name="XLXN_83" />
-        <signal name="XLXN_84" />
-        <signal name="XLXN_85" />
-        <signal name="XLXN_86" />
-        <signal name="XLXN_87" />
-        <signal name="XLXN_88" />
-        <signal name="XLXN_89" />
-        <signal name="XLXN_90" />
+        <signal name="c" />
+        <signal name="S5" />
+        <signal name="S6" />
+        <signal name="S7" />
+        <signal name="S8" />
+        <signal name="S9" />
         <signal name="B5" />
         <signal name="S15" />
         <signal name="Cout" />
@@ -92,6 +59,11 @@
         <signal name="S18" />
         <signal name="S19" />
         <signal name="S10" />
+        <signal name="XLXN_64" />
+        <signal name="XLXN_65" />
+        <signal name="XLXN_66" />
+        <signal name="XLXN_67" />
+        <signal name="XLXN_68" />
         <port polarity="Input" name="A0" />
         <port polarity="Input" name="B0" />
         <port polarity="Input" name="A1" />
@@ -584,25 +556,19 @@
         </branch>
         <iomarker fontsize="28" x="2912" y="848" name="B4" orien="R180" />
         <branch name="S3">
-            <wire x2="2800" y1="336" y2="336" x1="2720" />
-            <wire x2="2720" y1="336" y2="448" x1="2720" />
-            <wire x2="2800" y1="448" y2="448" x1="2720" />
-            <wire x2="2800" y1="448" y2="928" x1="2800" />
             <wire x2="2800" y1="928" y2="928" x1="2784" />
+            <wire x2="2832" y1="448" y2="448" x1="2800" />
+            <wire x2="2800" y1="448" y2="928" x1="2800" />
         </branch>
         <branch name="S2">
-            <wire x2="2272" y1="336" y2="336" x1="2208" />
-            <wire x2="2208" y1="336" y2="432" x1="2208" />
-            <wire x2="2272" y1="432" y2="432" x1="2208" />
-            <wire x2="2272" y1="432" y2="928" x1="2272" />
             <wire x2="2272" y1="928" y2="928" x1="2256" />
+            <wire x2="2304" y1="432" y2="432" x1="2272" />
+            <wire x2="2272" y1="432" y2="928" x1="2272" />
         </branch>
         <branch name="S4">
-            <wire x2="3344" y1="336" y2="336" x1="3280" />
-            <wire x2="3280" y1="336" y2="432" x1="3280" />
-            <wire x2="3344" y1="432" y2="432" x1="3280" />
-            <wire x2="3344" y1="432" y2="912" x1="3344" />
             <wire x2="3344" y1="912" y2="912" x1="3328" />
+            <wire x2="3376" y1="448" y2="448" x1="3344" />
+            <wire x2="3344" y1="448" y2="912" x1="3344" />
         </branch>
         <branch name="XLXN_52">
             <wire x2="2320" y1="800" y2="800" x1="2256" />
@@ -664,9 +630,6 @@
             <wire x2="2816" y1="1488" y2="1568" x1="2816" />
             <wire x2="2944" y1="1488" y2="1488" x1="2816" />
         </branch>
-        <iomarker fontsize="28" x="2272" y="336" name="S2" orien="R0" />
-        <iomarker fontsize="28" x="2800" y="336" name="S3" orien="R0" />
-        <iomarker fontsize="28" x="3344" y="336" name="S4" orien="R0" />
         <branch name="c">
             <wire x2="912" y1="576" y2="2672" x1="912" />
             <wire x2="1984" y1="2672" y2="2672" x1="912" />
@@ -747,5 +710,8 @@
             <wire x2="2400" y1="2672" y2="2672" x1="2368" />
         </branch>
         <iomarker fontsize="28" x="2400" y="2672" name="S10" orien="R0" />
+        <iomarker fontsize="28" x="2304" y="432" name="S2" orien="R0" />
+        <iomarker fontsize="28" x="3376" y="448" name="S4" orien="R0" />
+        <iomarker fontsize="28" x="2832" y="448" name="S3" orien="R0" />
     </sheet>
 </drawing>

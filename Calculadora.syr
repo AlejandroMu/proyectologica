@@ -4,13 +4,13 @@ Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.29 secs
+Total CPU time to Xst completion: 0.26 secs
  
 --> Parameter xsthdpdir set to xst
 
 
 Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.30 secs
+Total CPU time to Xst completion: 0.26 secs
  
 --> Reading design: Calculadora.prj
 
@@ -105,39 +105,40 @@ Slice Utilization Ratio Delta      : 5
 *                          HDL Compilation                              *
 =========================================================================
 Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.vhf" in Library work.
-Entity <Sumador1Bit_MUSER_Calculadora> compiled.
-Entity <Sumador1Bit_MUSER_Calculadora> (Architecture <BEHAVIORAL>) compiled.
-Entity <MultiInterno_MUSER_Calculadora> compiled.
-Entity <MultiInterno_MUSER_Calculadora> (Architecture <BEHAVIORAL>) compiled.
-Entity <Multiplicador_MUSER_Calculadora> compiled.
-Entity <Multiplicador_MUSER_Calculadora> (Architecture <BEHAVIORAL>) compiled.
+Entity <sumador1bit_muser_calculadora> compiled.
+Entity <sumador1bit_muser_calculadora> (Architecture <behavioral>) compiled.
+Entity <multiinterno_muser_calculadora> compiled.
+Entity <multiinterno_muser_calculadora> (Architecture <behavioral>) compiled.
+Entity <multiplicador_muser_calculadora> compiled.
+Entity <multiplicador_muser_calculadora> (Architecture <behavioral>) compiled.
 Entity <calculadora> compiled.
 Entity <calculadora> (Architecture <behavioral>) compiled.
 Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/Multiplicador.vhf" in Library work.
-Entity <Sumador1Bit_MUSER_Multiplicador> compiled.
-Entity <Sumador1Bit_MUSER_Multiplicador> (Architecture <BEHAVIORAL>) compiled.
-Entity <MultiInterno_MUSER_Multiplicador> compiled.
-Entity <MultiInterno_MUSER_Multiplicador> (Architecture <BEHAVIORAL>) compiled.
-Entity <Multiplicador> compiled.
-Entity <Multiplicador> (Architecture <BEHAVIORAL>) compiled.
+Entity <sumador1bit_muser_multiplicador> compiled.
+Entity <sumador1bit_muser_multiplicador> (Architecture <behavioral>) compiled.
+Entity <multiinterno_muser_multiplicador> compiled.
+Entity <multiinterno_muser_multiplicador> (Architecture <behavioral>) compiled.
+Entity <multiplicador> compiled.
+Entity <multiplicador> (Architecture <behavioral>) compiled.
 Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/MultiInterno.vhf" in Library work.
-Entity <Sumador1Bit_MUSER_MultiInterno> compiled.
-Entity <Sumador1Bit_MUSER_MultiInterno> (Architecture <BEHAVIORAL>) compiled.
-Entity <MultiInterno> compiled.
-Entity <MultiInterno> (Architecture <BEHAVIORAL>) compiled.
+Entity <sumador1bit_muser_multiinterno> compiled.
+Entity <sumador1bit_muser_multiinterno> (Architecture <behavioral>) compiled.
+Entity <multiinterno> compiled.
+Entity <multiinterno> (Architecture <behavioral>) compiled.
 Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador1Bit.vhf" in Library work.
-Architecture behavioral of Entity sumador1bit is up to date.
+Entity <sumador1bit> compiled.
+Entity <sumador1bit> (Architecture <behavioral>) compiled.
 
 =========================================================================
 *                     Design Hierarchy Analysis                         *
 =========================================================================
 Analyzing hierarchy for entity <Calculadora> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <Multiplicador_MUSER_Calculadora> in library <work> (architecture <BEHAVIORAL>).
+Analyzing hierarchy for entity <Multiplicador_MUSER_Calculadora> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <MultiInterno_MUSER_Calculadora> in library <work> (architecture <BEHAVIORAL>).
+Analyzing hierarchy for entity <MultiInterno_MUSER_Calculadora> in library <work> (architecture <behavioral>).
 
-Analyzing hierarchy for entity <Sumador1Bit_MUSER_Calculadora> in library <work> (architecture <BEHAVIORAL>).
+Analyzing hierarchy for entity <Sumador1Bit_MUSER_Calculadora> in library <work> (architecture <behavioral>).
 
 
 =========================================================================
@@ -150,13 +151,13 @@ WARNING:Xst:753 - "C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora
 WARNING:Xst:753 - "C:/Users/alejandro/Desktop/proyectologica/proyect/Calculadora.vhf" line 532: Unconnected output port 'S10' of component 'Multiplicador_MUSER_Calculadora'.
 Entity <Calculadora> analyzed. Unit <Calculadora> generated.
 
-Analyzing Entity <Multiplicador_MUSER_Calculadora> in library <work> (Architecture <BEHAVIORAL>).
+Analyzing Entity <Multiplicador_MUSER_Calculadora> in library <work> (Architecture <behavioral>).
 Entity <Multiplicador_MUSER_Calculadora> analyzed. Unit <Multiplicador_MUSER_Calculadora> generated.
 
-Analyzing Entity <MultiInterno_MUSER_Calculadora> in library <work> (Architecture <BEHAVIORAL>).
+Analyzing Entity <MultiInterno_MUSER_Calculadora> in library <work> (Architecture <behavioral>).
 Entity <MultiInterno_MUSER_Calculadora> analyzed. Unit <MultiInterno_MUSER_Calculadora> generated.
 
-Analyzing Entity <Sumador1Bit_MUSER_Calculadora> in library <work> (Architecture <BEHAVIORAL>).
+Analyzing Entity <Sumador1Bit_MUSER_Calculadora> in library <work> (Architecture <behavioral>).
 Entity <Sumador1Bit_MUSER_Calculadora> analyzed. Unit <Sumador1Bit_MUSER_Calculadora> generated.
 
 
@@ -351,12 +352,12 @@ Delay:               31.443ns (Levels of Logic = 25)
 =========================================================================
 
 
-Total REAL time to Xst completion: 18.00 secs
-Total CPU time to Xst completion: 18.83 secs
+Total REAL time to Xst completion: 16.00 secs
+Total CPU time to Xst completion: 16.29 secs
  
 --> 
 
-Total memory usage is 260212 kilobytes
+Total memory usage is 260724 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :    5 (   0 filtered)

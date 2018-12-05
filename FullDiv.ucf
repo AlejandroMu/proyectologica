@@ -1,0 +1,29 @@
+
+# PlanAhead Generated IO constraints 
+
+NET "B0" PULLUP;
+NET "B1" PULLUP;
+NET "B2" PULLUP;
+NET "B3" PULLUP;
+NET "B5" PULLUP;
+NET "Enable" PULLUP;
+
+NET "B4" PULLUP;
+
+# PlanAhead Generated physical constraints 
+
+NET "B0" LOC = L13;
+NET "B1" LOC = L14;
+NET "B2" LOC = H18;
+NET "B3" LOC = N17;
+NET "B4" LOC = H13;
+NET "B5" LOC = K17;
+NET "CLK" LOC = C9;
+NET "Enable" LOC = U4;
+NET "S0" LOC = F12;
+NET "S1" LOC = E12;
+NET "S2" LOC = E11;
+NET "S3" LOC = F11;
+NET "S4" LOC = C11;
+NET "S5" LOC = D11;
+NET "Enable" CLOCK_DEDICATED_ROUTE = FALSE;

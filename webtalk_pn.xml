@@ -3,10 +3,10 @@
 <!--The data in this file is primarily intended for consumption by Xilinx tools.
 The structure and the elements are likely to change over the next few releases.
 This means code written to parse this file will need to be revisited each subsequent release.-->
-<application name="pn" timeStamp="Wed Nov 28 15:13:05 2018">
+<application name="pn" timeStamp="Fri Nov 30 18:10:25 2018">
 <section name="Project Information" visible="false">
 <property name="ProjectID" value="8CD84C1F39764E5AB1D450615AD7B792" type="project"/>
-<property name="ProjectIteration" value="10" type="project"/>
+<property name="ProjectIteration" value="43" type="project"/>
 <property name="ProjectFile" value="C:/Users/alejandro/Desktop/proyectologica/proyect/proyect.xise" type="project"/>
 <property name="ProjectCreationTimestamp" value="2018-11-26T17:33:24" type="project"/>
 </section>
@@ -26,7 +26,7 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_UserConstraintEditorPreference" value="Text Editor" type="process"/>
 <property name="PROP_intProjectCreationTimestamp" value="2018-11-26T17:33:24" type="design"/>
 <property name="PROP_intWbtProjectID" value="8CD84C1F39764E5AB1D450615AD7B792" type="design"/>
-<property name="PROP_intWbtProjectIteration" value="10" type="process"/>
+<property name="PROP_intWbtProjectIteration" value="43" type="process"/>
 <property name="PROP_intWorkingDirLocWRTProjDir" value="Same" type="design"/>
 <property name="PROP_intWorkingDirUsed" value="No" type="design"/>
 <property name="PROP_lockPinsUcfFile" value="changed" type="process"/>
@@ -39,8 +39,9 @@ This means code written to parse this file will need to be revisited each subseq
 <property name="PROP_Synthesis_Tool" value="XST (VHDL/Verilog)" type="design"/>
 <property name="PROP_DevSpeed" value="-4" type="design"/>
 <property name="PROP_PreferredLanguage" value="VHDL" type="design"/>
-<property name="FILE_SCHEMATIC" value="10" type="source"/>
+<property name="FILE_SCHEMATIC" value="15" type="source"/>
 <property name="FILE_UCF" value="2" type="source"/>
+<property name="FILE_VHDL" value="4" type="source"/>
 </section>
 </application>
 </document>

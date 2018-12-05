@@ -1,2 +1,3 @@
 vhdtdtfi -lib work Comparador6Bits.vhd -prj proyect -o comparador6Bits.spl -module comparador6Bits -template D:/xilins/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
 spl2sym -intstyle ise -family spartan3e comparador6Bits.spl C:/Users/alejandro/Desktop/proyectologica/proyect/comparador6Bits.sym 
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl comparador6bits.vhf -w C:/Users/alejandro/Desktop/proyectologica/proyect/comparador6bits.sch 

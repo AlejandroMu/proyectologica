@@ -1,7 +1,7 @@
 Release 14.4 Drc P.49d (nt64)
 Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
 
-Wed Nov 28 14:49:57 2018
+Thu Nov 29 15:58:19 2018
 
 drc -z Calculadora.ncd Calculadora.pcf
 

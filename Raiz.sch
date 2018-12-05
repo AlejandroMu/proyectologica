@@ -7,11 +7,6 @@
     </attr>
     <netlist>
         <signal name="A0" />
-        <signal name="XLXN_2" />
-        <signal name="XLXN_3" />
-        <signal name="XLXN_7" />
-        <signal name="XLXN_8" />
-        <signal name="XLXN_12" />
         <signal name="XLXN_16" />
         <signal name="XLXN_17" />
         <signal name="XLXN_18" />
@@ -25,17 +20,6 @@
         <signal name="XLXN_28" />
         <signal name="XLXN_29" />
         <signal name="XLXN_30" />
-        <signal name="XLXN_31" />
-        <signal name="XLXN_32" />
-        <signal name="XLXN_33" />
-        <signal name="XLXN_34" />
-        <signal name="XLXN_35" />
-        <signal name="XLXN_36" />
-        <signal name="XLXN_37" />
-        <signal name="XLXN_38" />
-        <signal name="XLXN_39" />
-        <signal name="XLXN_40" />
-        <signal name="XLXN_41" />
         <signal name="XLXN_42" />
         <signal name="XLXN_43" />
         <signal name="XLXN_44" />
@@ -48,21 +32,14 @@
         <signal name="XLXN_51" />
         <signal name="XLXN_52" />
         <signal name="XLXN_53" />
-        <signal name="XLXN_59" />
-        <signal name="XLXN_60" />
         <signal name="S1" />
-        <signal name="XLXN_62" />
         <signal name="XLXN_63" />
         <signal name="XLXN_64" />
         <signal name="A4" />
         <signal name="A5" />
         <signal name="XLXN_67" />
         <signal name="XLXN_68" />
-        <signal name="XLXN_70" />
-        <signal name="XLXN_71" />
-        <signal name="XLXN_72" />
         <signal name="XLXN_74" />
-        <signal name="XLXN_75" />
         <signal name="A6" />
         <signal name="A7" />
         <signal name="XLXN_78" />
@@ -546,8 +523,7 @@
             <wire x2="416" y1="1248" y2="1376" x1="416" />
             <wire x2="464" y1="1248" y2="1248" x1="416" />
             <wire x2="496" y1="1248" y2="1248" x1="464" />
-            <wire x2="352" y1="1248" y2="1720" x1="352" />
-            <wire x2="352" y1="1720" y2="1728" x1="352" />
+            <wire x2="352" y1="1248" y2="1728" x1="352" />
             <wire x2="352" y1="1728" y2="2432" x1="352" />
             <wire x2="1024" y1="2432" y2="2432" x1="352" />
             <wire x2="1152" y1="2432" y2="2432" x1="1024" />

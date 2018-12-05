@@ -1,0 +1,538 @@
+Release 14.4 - xst P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.70 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.71 secs
+ 
+--> Reading design: ContadorD.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "ContadorD.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "ContadorD"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : ContadorD
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/ContadorD.vhf" in Library work.
+Entity <ContadorD> compiled.
+Entity <ContadorD> (Architecture <BEHAVIORAL>) compiled.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <ContadorD> in library <work> (architecture <BEHAVIORAL>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <ContadorD> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "INIT =  0" for instance <XLXI_1> in unit <ContadorD>.
+    Set user-defined property "INIT =  0" for instance <XLXI_2> in unit <ContadorD>.
+    Set user-defined property "INIT =  0" for instance <XLXI_3> in unit <ContadorD>.
+    Set user-defined property "INIT =  0" for instance <XLXI_4> in unit <ContadorD>.
+    Set user-defined property "INIT =  0" for instance <XLXI_5> in unit <ContadorD>.
+    Set user-defined property "INIT =  0" for instance <XLXI_6> in unit <ContadorD>.
+Entity <ContadorD> analyzed. Unit <ContadorD> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <ContadorD>.
+    Related source file is "C:/Users/alejandro/Desktop/proyectologica/proyect/ContadorD.vhf".
+Unit <ContadorD> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 6
+ Flip-Flops                                            : 6
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <ContadorD> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block ContadorD, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 6
+ Flip-Flops                                            : 6
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : ContadorD.ngr
+Top Level Output File Name         : ContadorD
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 9
+
+Cell Usage :
+# BELS                             : 6
+#      INV                         : 6
+# FlipFlops/Latches                : 6
+#      FDC                         : 6
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 8
+#      IBUF                        : 2
+#      OBUF                        : 6
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                        3  out of   4656     0%  
+ Number of Slice Flip Flops:              5  out of   9312     0%  
+ Number of 4 input LUTs:                  6  out of   9312     0%  
+ Number of IOs:                           9
+ Number of bonded IOBs:                   9  out of    232     3%  
+    IOB Flip Flops:                       1
+ Number of GCLKs:                         1  out of     24     4%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+CLK                                | BUFGP                  | 1     |
+S0_OBUF                            | NONE(XLXI_2)           | 1     |
+S1_OBUF                            | NONE(XLXI_3)           | 1     |
+S2_OBUF                            | NONE(XLXI_4)           | 1     |
+S3_OBUF                            | NONE(XLXI_5)           | 1     |
+S4_OBUF                            | NONE(XLXI_6)           | 1     |
+-----------------------------------+------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+-----------------------------------+------------------------+-------+
+Control Signal                     | Buffer(FF name)        | Load  |
+-----------------------------------+------------------------+-------+
+CLR                                | IBUF                   | 6     |
+-----------------------------------+------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 2.497ns (Maximum Frequency: 400.481MHz)
+   Minimum input arrival time before clock: 1.946ns
+   Maximum output required time after clock: 4.310ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'S0_OBUF'
+  Clock period: 2.497ns (frequency: 400.481MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.497ns (Levels of Logic = 1)
+  Source:            XLXI_2 (FF)
+  Destination:       XLXI_2 (FF)
+  Source Clock:      S0_OBUF falling
+  Destination Clock: S0_OBUF falling
+
+  Data Path: XLXI_2 to XLXI_2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.447  XLXI_2 (S1_OBUF)
+     INV:I->O              2   0.704   0.447  XLXI_8 (XLXN_20)
+     FDC:D                     0.308          XLXI_2
+    ----------------------------------------
+    Total                      2.497ns (1.603ns logic, 0.894ns route)
+                                       (64.2% logic, 35.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'S1_OBUF'
+  Clock period: 2.497ns (frequency: 400.481MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.497ns (Levels of Logic = 1)
+  Source:            XLXI_3 (FF)
+  Destination:       XLXI_3 (FF)
+  Source Clock:      S1_OBUF falling
+  Destination Clock: S1_OBUF falling
+
+  Data Path: XLXI_3 to XLXI_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.447  XLXI_3 (S2_OBUF)
+     INV:I->O              2   0.704   0.447  XLXI_9 (XLXN_21)
+     FDC:D                     0.308          XLXI_3
+    ----------------------------------------
+    Total                      2.497ns (1.603ns logic, 0.894ns route)
+                                       (64.2% logic, 35.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'S2_OBUF'
+  Clock period: 2.497ns (frequency: 400.481MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.497ns (Levels of Logic = 1)
+  Source:            XLXI_4 (FF)
+  Destination:       XLXI_4 (FF)
+  Source Clock:      S2_OBUF falling
+  Destination Clock: S2_OBUF falling
+
+  Data Path: XLXI_4 to XLXI_4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.447  XLXI_4 (S3_OBUF)
+     INV:I->O              2   0.704   0.447  XLXI_10 (XLXN_25)
+     FDC:D                     0.308          XLXI_4
+    ----------------------------------------
+    Total                      2.497ns (1.603ns logic, 0.894ns route)
+                                       (64.2% logic, 35.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'S3_OBUF'
+  Clock period: 2.497ns (frequency: 400.481MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.497ns (Levels of Logic = 1)
+  Source:            XLXI_5 (FF)
+  Destination:       XLXI_5 (FF)
+  Source Clock:      S3_OBUF falling
+  Destination Clock: S3_OBUF falling
+
+  Data Path: XLXI_5 to XLXI_5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.447  XLXI_5 (S4_OBUF)
+     INV:I->O              2   0.704   0.447  XLXI_11 (XLXN_31)
+     FDC:D                     0.308          XLXI_5
+    ----------------------------------------
+    Total                      2.497ns (1.603ns logic, 0.894ns route)
+                                       (64.2% logic, 35.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'S4_OBUF'
+  Clock period: 2.470ns (frequency: 404.858MHz)
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Delay:               2.470ns (Levels of Logic = 1)
+  Source:            XLXI_6 (FF)
+  Destination:       XLXI_6 (FF)
+  Source Clock:      S4_OBUF falling
+  Destination Clock: S4_OBUF falling
+
+  Data Path: XLXI_6 to XLXI_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.447  XLXI_6 (S5_OBUF)
+     INV:I->O              1   0.704   0.420  XLXI_12 (XLXN_33)
+     FDC:D                     0.308          XLXI_6
+    ----------------------------------------
+    Total                      2.470ns (1.603ns logic, 0.867ns route)
+                                       (64.9% logic, 35.1% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              1.946ns (Levels of Logic = 1)
+  Source:            D (PAD)
+  Destination:       XLXI_1 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: D to XLXI_1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.218   0.420  D_IBUF (D_IBUF)
+     FDC:D                     0.308          XLXI_1
+    ----------------------------------------
+    Total                      1.946ns (1.526ns logic, 0.420ns route)
+                                       (78.4% logic, 21.6% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'CLK'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.310ns (Levels of Logic = 1)
+  Source:            XLXI_1 (FF)
+  Destination:       S0 (PAD)
+  Source Clock:      CLK rising
+
+  Data Path: XLXI_1 to S0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.447  XLXI_1 (S0_OBUF)
+     OBUF:I->O                 3.272          S0_OBUF (S0)
+    ----------------------------------------
+    Total                      4.310ns (3.863ns logic, 0.447ns route)
+                                       (89.6% logic, 10.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'S0_OBUF'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.310ns (Levels of Logic = 1)
+  Source:            XLXI_2 (FF)
+  Destination:       S1 (PAD)
+  Source Clock:      S0_OBUF falling
+
+  Data Path: XLXI_2 to S1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.447  XLXI_2 (S1_OBUF)
+     OBUF:I->O                 3.272          S1_OBUF (S1)
+    ----------------------------------------
+    Total                      4.310ns (3.863ns logic, 0.447ns route)
+                                       (89.6% logic, 10.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'S1_OBUF'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.310ns (Levels of Logic = 1)
+  Source:            XLXI_3 (FF)
+  Destination:       S2 (PAD)
+  Source Clock:      S1_OBUF falling
+
+  Data Path: XLXI_3 to S2
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.447  XLXI_3 (S2_OBUF)
+     OBUF:I->O                 3.272          S2_OBUF (S2)
+    ----------------------------------------
+    Total                      4.310ns (3.863ns logic, 0.447ns route)
+                                       (89.6% logic, 10.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'S2_OBUF'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.310ns (Levels of Logic = 1)
+  Source:            XLXI_4 (FF)
+  Destination:       S3 (PAD)
+  Source Clock:      S2_OBUF falling
+
+  Data Path: XLXI_4 to S3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.447  XLXI_4 (S3_OBUF)
+     OBUF:I->O                 3.272          S3_OBUF (S3)
+    ----------------------------------------
+    Total                      4.310ns (3.863ns logic, 0.447ns route)
+                                       (89.6% logic, 10.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'S3_OBUF'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.310ns (Levels of Logic = 1)
+  Source:            XLXI_5 (FF)
+  Destination:       S4 (PAD)
+  Source Clock:      S3_OBUF falling
+
+  Data Path: XLXI_5 to S4
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.447  XLXI_5 (S4_OBUF)
+     OBUF:I->O                 3.272          S4_OBUF (S4)
+    ----------------------------------------
+    Total                      4.310ns (3.863ns logic, 0.447ns route)
+                                       (89.6% logic, 10.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'S4_OBUF'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              4.310ns (Levels of Logic = 1)
+  Source:            XLXI_6 (FF)
+  Destination:       S5 (PAD)
+  Source Clock:      S4_OBUF falling
+
+  Data Path: XLXI_6 to S5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              2   0.591   0.447  XLXI_6 (S5_OBUF)
+     OBUF:I->O                 3.272          S5_OBUF (S5)
+    ----------------------------------------
+    Total                      4.310ns (3.863ns logic, 0.447ns route)
+                                       (89.6% logic, 10.4% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 22.00 secs
+Total CPU time to Xst completion: 22.35 secs
+ 
+--> 
+
+Total memory usage is 258804 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    0 (   0 filtered)
+Number of infos    :    1 (   0 filtered)
+

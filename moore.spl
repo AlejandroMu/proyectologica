@@ -1,0 +1,10 @@
+[Inputs]
+comp
+CLK
+enable
+[Outputs]
+resta
+carga
+count
+reset
+[BiDir]

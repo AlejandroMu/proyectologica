@@ -1,0 +1,23 @@
+//! **************************************************************************
+// Written by: Map P.49d on Fri Nov 30 18:10:21 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "S0" LOCATE = SITE "F12" LEVEL 1;
+COMP "S1" LOCATE = SITE "E12" LEVEL 1;
+COMP "S2" LOCATE = SITE "E11" LEVEL 1;
+COMP "S3" LOCATE = SITE "F11" LEVEL 1;
+COMP "S4" LOCATE = SITE "C11" LEVEL 1;
+COMP "S5" LOCATE = SITE "D11" LEVEL 1;
+COMP "B0" LOCATE = SITE "L13" LEVEL 1;
+COMP "B1" LOCATE = SITE "L14" LEVEL 1;
+COMP "B2" LOCATE = SITE "H18" LEVEL 1;
+COMP "B3" LOCATE = SITE "N17" LEVEL 1;
+COMP "B4" LOCATE = SITE "H13" LEVEL 1;
+COMP "B5" LOCATE = SITE "K17" LEVEL 1;
+COMP "CLK" LOCATE = SITE "C9" LEVEL 1;
+COMP "Enable" LOCATE = SITE "U4" LEVEL 1;
+PIN Enable_pin<0> = BEL "Enable" PINNAME PAD;
+PIN "Enable_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+SCHEMATIC END;
+

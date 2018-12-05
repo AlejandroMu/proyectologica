@@ -1,0 +1,6 @@
+[Inputs]
+S
+=A[5:0]=
+[Outputs]
+=Z[5:0]=
+[BiDir]

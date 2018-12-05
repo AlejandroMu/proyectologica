@@ -1,0 +1,2 @@
+sch2hdl -intstyle ise -family spartan3e -flat -suppress -vhdl RegistroA_drc.vhf -w C:/Users/alejandro/Desktop/proyectologica/proyect/RegistroA.sch 
+sch2sym -intstyle ise -family spartan3e -refsym RegistroA C:/Users/alejandro/Desktop/proyectologica/proyect/RegistroA.sch C:/Users/alejandro/Desktop/proyectologica/proyect/RegistroA.sym 

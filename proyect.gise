@@ -49,19 +49,136 @@
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="Calculadora.vhf"/>
     <file xil_pn:fileType="FILE_XPI" xil_pn:name="Calculadora.xpi"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Calculadora.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Calculadora_envsettings.html"/>
     <file xil_pn:fileType="FILE_NCD" xil_pn:name="Calculadora_guide.ncd" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Calculadora_map.map" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Calculadora_map.mrp" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Calculadora_map.ncd" xil_pn:subbranch="Map"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Calculadora_map.ngm" xil_pn:subbranch="Map"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Calculadora_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Calculadora_ngdbuild.xrpt"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Calculadora_pad.csv" xil_pn:subbranch="Par"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Calculadora_pad.txt" xil_pn:subbranch="Par"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Calculadora_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Calculadora_summary.html"/>
     <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Calculadora_summary.xml"/>
     <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Calculadora_usage.xml"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Calculadora_vhdl.prj"/>
     <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Calculadora_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="Contador.bld"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Contador.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Contador.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Contador.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="Contador.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Contador.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="Contador.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="Contador.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="Contador.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Contador.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="Contador.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Contador.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Contador.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Contador.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="Contador.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="Contador.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="Contador.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="Contador.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="Contador.vhf"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="Contador.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Contador.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="ContadorD.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="ContadorD.cmd_log"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="ContadorD.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="ContadorD.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ContadorD.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="ContadorD.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="ContadorD.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="ContadorD.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="ContadorD.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="ContadorD.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="ContadorD.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ContadorD.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="ContadorD.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="ContadorD.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="ContadorD.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="ContadorD.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="ContadorD.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="ContadorD.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="ContadorD.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="ContadorD.vhf"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="ContadorD.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="ContadorD.xst"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="ContadorD_drc.vhf"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="ContadorD_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ContadorD_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="ContadorD_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="ContadorD_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="ContadorD_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ContadorD_map.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="ContadorD_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="ContadorD_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ContadorD_par.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="ContadorD_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="ContadorD_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="ContadorD_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="ContadorD_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="Contador_drc.vhf"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Contador_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Contador_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Contador_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="Contador_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="Contador_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="Contador_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Contador_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Contador_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="Contador_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="Contador_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Contador_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Contador_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="Contador_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="Contador_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Contador_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Contador_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Division.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="Division.vhf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="Division_drc.vhf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="FullDiv.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="FullDiv.cmd_log"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="FullDiv.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="FullDiv.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="FullDiv.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="FullDiv.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="FullDiv.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="FullDiv.ngr"/>
+    <file xil_pn:fileType="FILE_PAD_MISC" xil_pn:name="FullDiv.pad"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="FullDiv.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="FullDiv.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FullDiv.prj"/>
+    <file xil_pn:fileType="FILE_TRCE_MISC" xil_pn:name="FullDiv.ptwx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="FullDiv.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="FullDiv.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="FullDiv.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="FullDiv.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="FullDiv.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="FullDiv.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="FullDiv.vhf"/>
+    <file xil_pn:fileType="FILE_XPI" xil_pn:name="FullDiv.xpi"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="FullDiv.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="FullDiv_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="FullDiv_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="FullDiv_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="FullDiv_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="FullDiv_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FullDiv_map.xrpt"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FullDiv_ngdbuild.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="FullDiv_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="FullDiv_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FullDiv_par.xrpt"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="FullDiv_summary.html"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="FullDiv_summary.xml"/>
+    <file xil_pn:fileType="FILE_WEBTALK" xil_pn:name="FullDiv_usage.xml"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="FullDiv_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="FullDiv_xst.xrpt"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="MultiInterno.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="MultiInterno.vhf"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Multiplicador.sym" xil_pn:origination="imported"/>
@@ -71,6 +188,10 @@
     <file xil_pn:fileType="FILE_VHDL_INSTTEMPLATE" xil_pn:name="Raiz.vhi"/>
     <file xil_pn:fileType="FILE_VHDL" xil_pn:name="Raiz_drc.vhf"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Registro.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="Registro.vhf"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="RegistroA.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="RegistroA.vhf"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="RegistroA_drc.vhf"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Sumador1Bit.sym" xil_pn:origination="imported"/>
     <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="Sumador1Bit.vhf"/>
     <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="Sumador6bits.sym" xil_pn:origination="imported"/>
@@ -124,8 +245,62 @@
     <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="comparador6Bits.prj"/>
     <file xil_pn:fileType="FILE_SPL" xil_pn:name="comparador6Bits.spl"/>
     <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="comparador6Bits.stx"/>
-    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="comparador6Bits.sym" xil_pn:origination="imported"/>
     <file xil_pn:fileType="FILE_XST" xil_pn:name="comparador6Bits.xst"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="contador.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="contador.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="contador.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="contador.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="contador.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGDBUILD_LOG" xil_pn:name="contadorPrueba.bld"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="contadorPrueba.cmd_log"/>
+    <file xil_pn:fileType="FILE_JHD" xil_pn:name="contadorPrueba.jhd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="contadorPrueba.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="contadorPrueba.ncd" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="contadorPrueba.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGD" xil_pn:name="contadorPrueba.ngd"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="contadorPrueba.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAR_REPORT" xil_pn:name="contadorPrueba.par" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PCF" xil_pn:name="contadorPrueba.pcf" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="contadorPrueba.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="contadorPrueba.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="contadorPrueba.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_TXT_REPORT" xil_pn:name="contadorPrueba.twr" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_TIMING_XML_REPORT" xil_pn:name="contadorPrueba.twx" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_UNROUTES" xil_pn:name="contadorPrueba.unroutes" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="contadorPrueba.ut" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="contadorPrueba.vhf"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="contadorPrueba.xst"/>
+    <file xil_pn:fileType="FILE_VHDL" xil_pn:name="contadorPrueba_drc.vhf"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="contadorPrueba_envsettings.html"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="contadorPrueba_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="contadorPrueba_map.map" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_MAP_REPORT" xil_pn:name="contadorPrueba_map.mrp" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NCD" xil_pn:name="contadorPrueba_map.ncd" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGM" xil_pn:name="contadorPrueba_map.ngm" xil_pn:subbranch="Map"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_EXCEL_REPORT" xil_pn:name="contadorPrueba_pad.csv" xil_pn:subbranch="Par"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_PAD_TXT_REPORT" xil_pn:name="contadorPrueba_pad.txt" xil_pn:subbranch="Par"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="contadorPrueba_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="contadorPrueba_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="contadorPrueba_xst.xrpt"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="contadord.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="contadord.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="contadord.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="contadorprueba.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="contadorprueba.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="contadorprueba.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_REPORT" xil_pn:name="fulldiv.bgn" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BIT" xil_pn:name="fulldiv.bit" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_BITGEN_DRC" xil_pn:name="fulldiv.drc" xil_pn:subbranch="FPGAConfiguration"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="moore.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="moore.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="moore.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="moore.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="moore.xst"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="muxBus6.prj"/>
+    <file xil_pn:fileType="FILE_SPL" xil_pn:name="muxBus6.spl"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="muxBus6.stx"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="muxBus6.sym" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="muxBus6.xst"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_1"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_2"/>
     <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="planAhead_run_3"/>
@@ -186,70 +361,47 @@
   </files>
 
   <transforms xmlns="http://www.xilinx.com/XMLSchema">
-    <transform xil_pn:end_ts="1543429622" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1543429622">
+    <transform xil_pn:end_ts="1543524855" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1543524855">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1543435760" xil_pn:in_ck="-3333952707379869957" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-7119855112173365468" xil_pn:start_ts="1543435755">
+    <transform xil_pn:end_ts="1543619185" xil_pn:in_ck="3539312574830570905" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="6185395879889063333" xil_pn:start_ts="1543619181">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
       <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
+      <outfile xil_pn:name="Contador.vhf"/>
+      <outfile xil_pn:name="Division.vhf"/>
+      <outfile xil_pn:name="FullDiv.vhf"/>
+      <outfile xil_pn:name="Registro.vhf"/>
+      <outfile xil_pn:name="RegistroA.vhf"/>
+      <outfile xil_pn:name="Sumador1Bit.vhf"/>
+      <outfile xil_pn:name="Sumador6bits.vhf"/>
+      <outfile xil_pn:name="SumadorRestador6bits.vhf"/>
     </transform>
-    <transform xil_pn:end_ts="1543435760" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="7164014078574776394" xil_pn:start_ts="1543435760">
+    <transform xil_pn:end_ts="1543619185" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="8580104000853915403" xil_pn:start_ts="1543619185">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1543435760" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1543435760">
+    <transform xil_pn:end_ts="1543619185" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1543619185">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1543435760" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="8594254946659885090" xil_pn:start_ts="1543435760">
+    <transform xil_pn:end_ts="1543619185" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="8223151990265890659" xil_pn:start_ts="1543619185">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
     </transform>
-    <transform xil_pn:end_ts="1543435931" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1543435931">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-    </transform>
-    <transform xil_pn:end_ts="1543435931" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2279968683182361580" xil_pn:start_ts="1543435931">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-    </transform>
-    <transform xil_pn:end_ts="1543435958" xil_pn:in_ck="-4680672418601478347" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-2734015858513008985" xil_pn:start_ts="1543435931">
-      <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="WarningsGenerated"/>
-      <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
-      <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputAdded"/>
-      <status xil_pn:value="InputChanged"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputChanged"/>
-      <status xil_pn:value="OutputRemoved"/>
-    </transform>
-    <transform xil_pn:end_ts="1543435958" xil_pn:in_ck="-3394849147957098783" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="8767809050346180119" xil_pn:start_ts="1543435958">
+    <transform xil_pn:end_ts="1543619185" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297158069842" xil_pn:start_ts="1543619185">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
     </transform>
-    <transform xil_pn:end_ts="1543435974" xil_pn:in_ck="-2294175964891460899" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="5727799480772841239" xil_pn:start_ts="1543435958">
+    <transform xil_pn:end_ts="1543619185" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-1714034342272475371" xil_pn:start_ts="1543619185">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="ReadyToRun"/>
-      <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
-      <status xil_pn:value="OutOfDateForOutputs"/>
-      <status xil_pn:value="InputRemoved"/>
-      <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1543435984" xil_pn:in_ck="2156487041541153823" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1543435974">
+    <transform xil_pn:end_ts="1543619212" xil_pn:in_ck="6694640911448935334" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="897018908323971336" xil_pn:start_ts="1543619185">
       <status xil_pn:value="SuccessfullyRun"/>
       <status xil_pn:value="WarningsGenerated"/>
       <status xil_pn:value="ReadyToRun"/>
@@ -260,27 +412,54 @@
       <status xil_pn:value="OutputChanged"/>
       <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1543436020" xil_pn:in_ck="1769031570872011734" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1543435984">
+    <transform xil_pn:end_ts="1543619402" xil_pn:in_ck="7569199621236269288" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="1262981225058770488" xil_pn:start_ts="1543619402">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1543619415" xil_pn:in_ck="5853647999347893361" xil_pn:name="TRANEXT_ngdbuild_FPGA" xil_pn:prop_ck="940729816275835736" xil_pn:start_ts="1543619402">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1543436043" xil_pn:in_ck="-3394849147957106408" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1543436020">
+    <transform xil_pn:end_ts="1543619424" xil_pn:in_ck="-8847219108765776233" xil_pn:name="TRANEXT_map_spartan3" xil_pn:prop_ck="-5849673150125579957" xil_pn:start_ts="1543619415">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputChanged"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1543619464" xil_pn:in_ck="-4105888703920900851" xil_pn:name="TRANEXT_par_spartan3" xil_pn:prop_ck="-5563652517805085498" xil_pn:start_ts="1543619424">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>
       <status xil_pn:value="InputRemoved"/>
       <status xil_pn:value="OutputRemoved"/>
     </transform>
-    <transform xil_pn:end_ts="1543436020" xil_pn:in_ck="3519367940906121721" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1543436012">
+    <transform xil_pn:end_ts="1543619483" xil_pn:in_ck="-6008831602139251529" xil_pn:name="TRANEXT_bitFile_spartan3e" xil_pn:prop_ck="-7817169320884990698" xil_pn:start_ts="1543619464">
       <status xil_pn:value="SuccessfullyRun"/>
-      <status xil_pn:value="NotReadyToRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputRemoved"/>
+      <status xil_pn:value="OutputRemoved"/>
+    </transform>
+    <transform xil_pn:end_ts="1543619464" xil_pn:in_ck="-5240888577264309505" xil_pn:name="TRAN_postRouteTrce" xil_pn:prop_ck="445577401284416186" xil_pn:start_ts="1543619457">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
       <status xil_pn:value="OutOfDateForInputs"/>
       <status xil_pn:value="OutOfDateForPredecessor"/>
       <status xil_pn:value="OutOfDateForOutputs"/>

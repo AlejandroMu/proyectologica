@@ -1,0 +1,726 @@
+Release 14.4 - xst P.49d (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.25 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.27 secs
+ 
+--> Reading design: FullDiv.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Compilation
+  3) Design Hierarchy Analysis
+  4) HDL Analysis
+  5) HDL Synthesis
+     5.1) HDL Synthesis Report
+  6) Advanced HDL Synthesis
+     6.1) Advanced HDL Synthesis Report
+  7) Low Level Synthesis
+  8) Partition Report
+  9) Final Report
+	9.1) Device utilization summary
+	9.2) Partition Resource Summary
+	9.3) TIMING REPORT
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "FullDiv.prj"
+Input Format                       : mixed
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "FullDiv"
+Output Format                      : NGC
+Target Device                      : xc3s500e-4-fg320
+
+---- Source Options
+Top Module Name                    : FullDiv
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Mux Style                          : Auto
+Decoder Extraction                 : YES
+Priority Encoder Extraction        : Yes
+Shift Register Extraction          : YES
+Logical Shifter Extraction         : YES
+XOR Collapsing                     : YES
+ROM Style                          : Auto
+Mux Extraction                     : Yes
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Multiplier Style                   : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 24
+Register Duplication               : YES
+Slice Packing                      : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Yes
+Use Synchronous Set                : Yes
+Use Synchronous Reset              : Yes
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+Verilog 2001                       : YES
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/COMPARADOR.vhd" in Library work.
+Architecture comparacion of Entity comparador is up to date.
+Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/muxBus6.vhd" in Library work.
+Entity <muxbus6> compiled.
+Entity <muxbus6> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/moore.vhd" in Library work.
+Architecture behavioral of Entity moore is up to date.
+Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf" in Library work.
+Entity <Registro_MUSER_FullDiv> compiled.
+Entity <Registro_MUSER_FullDiv> (Architecture <BEHAVIORAL>) compiled.
+Entity <RegistroA_MUSER_FullDiv> compiled.
+Entity <RegistroA_MUSER_FullDiv> (Architecture <BEHAVIORAL>) compiled.
+Entity <FTC_MXILINX_FullDiv> compiled.
+Entity <FTC_MXILINX_FullDiv> (Architecture <BEHAVIORAL>) compiled.
+Entity <Contador_MUSER_FullDiv> compiled.
+Entity <Contador_MUSER_FullDiv> (Architecture <BEHAVIORAL>) compiled.
+Entity <Sumador1Bit_MUSER_FullDiv> compiled.
+Entity <Sumador1Bit_MUSER_FullDiv> (Architecture <BEHAVIORAL>) compiled.
+Entity <Sumador6bits_MUSER_FullDiv> compiled.
+Entity <Sumador6bits_MUSER_FullDiv> (Architecture <BEHAVIORAL>) compiled.
+Entity <SumadorRestador6bits_MUSER_FullDiv> compiled.
+Entity <SumadorRestador6bits_MUSER_FullDiv> (Architecture <BEHAVIORAL>) compiled.
+Entity <Division_MUSER_FullDiv> compiled.
+Entity <Division_MUSER_FullDiv> (Architecture <BEHAVIORAL>) compiled.
+Entity <FullDiv> compiled.
+Entity <FullDiv> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/Division.vhf" in Library work.
+Entity <Registro_MUSER_Division> compiled.
+Entity <Registro_MUSER_Division> (Architecture <BEHAVIORAL>) compiled.
+Entity <RegistroA_MUSER_Division> compiled.
+Entity <RegistroA_MUSER_Division> (Architecture <BEHAVIORAL>) compiled.
+Entity <FTC_MXILINX_Division> compiled.
+Entity <FTC_MXILINX_Division> (Architecture <BEHAVIORAL>) compiled.
+Entity <Contador_MUSER_Division> compiled.
+Entity <Contador_MUSER_Division> (Architecture <BEHAVIORAL>) compiled.
+Entity <Sumador1Bit_MUSER_Division> compiled.
+Entity <Sumador1Bit_MUSER_Division> (Architecture <BEHAVIORAL>) compiled.
+Entity <Sumador6bits_MUSER_Division> compiled.
+Entity <Sumador6bits_MUSER_Division> (Architecture <BEHAVIORAL>) compiled.
+Entity <SumadorRestador6bits_MUSER_Division> compiled.
+Entity <SumadorRestador6bits_MUSER_Division> (Architecture <BEHAVIORAL>) compiled.
+Entity <Division> compiled.
+Entity <Division> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/Contador.vhf" in Library work.
+Architecture behavioral of Entity ftc_mxilinx_contador is up to date.
+Architecture behavioral of Entity contador is up to date.
+Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/RegistroA.vhf" in Library work.
+Entity <Registro_MUSER_RegistroA> compiled.
+Entity <Registro_MUSER_RegistroA> (Architecture <BEHAVIORAL>) compiled.
+Entity <RegistroA> compiled.
+Entity <RegistroA> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/SumadorRestador6bits.vhf" in Library work.
+Entity <sumador1bit_muser_sumadorrestador6bits> compiled.
+Entity <sumador1bit_muser_sumadorrestador6bits> (Architecture <behavioral>) compiled.
+Entity <sumador6bits_muser_sumadorrestador6bits> compiled.
+Entity <sumador6bits_muser_sumadorrestador6bits> (Architecture <behavioral>) compiled.
+Entity <sumadorrestador6bits> compiled.
+Entity <sumadorrestador6bits> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/Registro.vhf" in Library work.
+Entity <Registro> compiled.
+Entity <Registro> (Architecture <BEHAVIORAL>) compiled.
+Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador6bits.vhf" in Library work.
+Entity <sumador1bit_muser_sumador6bits> compiled.
+Entity <sumador1bit_muser_sumador6bits> (Architecture <behavioral>) compiled.
+Entity <sumador6bits> compiled.
+Entity <sumador6bits> (Architecture <behavioral>) compiled.
+Compiling vhdl file "C:/Users/alejandro/Desktop/proyectologica/proyect/Sumador1Bit.vhf" in Library work.
+Architecture behavioral of Entity sumador1bit is up to date.
+
+=========================================================================
+*                     Design Hierarchy Analysis                         *
+=========================================================================
+Analyzing hierarchy for entity <FullDiv> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <Division_MUSER_FullDiv> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <COMPARADOR> in library <work> (architecture <comparacion>).
+
+Analyzing hierarchy for entity <SumadorRestador6bits_MUSER_FullDiv> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <muxBus6> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Contador_MUSER_FullDiv> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <Registro_MUSER_FullDiv> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <RegistroA_MUSER_FullDiv> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <moore> in library <work> (architecture <behavioral>).
+
+Analyzing hierarchy for entity <Sumador6bits_MUSER_FullDiv> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <FTC_MXILINX_FullDiv> in library <work> (architecture <BEHAVIORAL>) with generics.
+	INIT = '0'
+
+Analyzing hierarchy for entity <Registro_MUSER_FullDiv> in library <work> (architecture <BEHAVIORAL>).
+
+Analyzing hierarchy for entity <Sumador1Bit_MUSER_FullDiv> in library <work> (architecture <BEHAVIORAL>).
+
+
+=========================================================================
+*                            HDL Analysis                               *
+=========================================================================
+Analyzing Entity <FullDiv> in library <work> (Architecture <BEHAVIORAL>).
+Entity <FullDiv> analyzed. Unit <FullDiv> generated.
+
+Analyzing Entity <Division_MUSER_FullDiv> in library <work> (Architecture <BEHAVIORAL>).
+WARNING:Xst:753 - "C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf" line 907: Unconnected output port 'MENOR' of component 'COMPARADOR'.
+WARNING:Xst:753 - "C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf" line 914: Unconnected output port 'cout' of component 'SumadorRestador6bits_MUSER_FullDiv'.
+Entity <Division_MUSER_FullDiv> analyzed. Unit <Division_MUSER_FullDiv> generated.
+
+Analyzing Entity <COMPARADOR> in library <work> (Architecture <comparacion>).
+Entity <COMPARADOR> analyzed. Unit <COMPARADOR> generated.
+
+Analyzing Entity <SumadorRestador6bits_MUSER_FullDiv> in library <work> (Architecture <BEHAVIORAL>).
+Entity <SumadorRestador6bits_MUSER_FullDiv> analyzed. Unit <SumadorRestador6bits_MUSER_FullDiv> generated.
+
+Analyzing Entity <Sumador6bits_MUSER_FullDiv> in library <work> (Architecture <BEHAVIORAL>).
+Entity <Sumador6bits_MUSER_FullDiv> analyzed. Unit <Sumador6bits_MUSER_FullDiv> generated.
+
+Analyzing Entity <Sumador1Bit_MUSER_FullDiv> in library <work> (Architecture <BEHAVIORAL>).
+Entity <Sumador1Bit_MUSER_FullDiv> analyzed. Unit <Sumador1Bit_MUSER_FullDiv> generated.
+
+Analyzing Entity <muxBus6> in library <work> (Architecture <behavioral>).
+Entity <muxBus6> analyzed. Unit <muxBus6> generated.
+
+Analyzing Entity <Contador_MUSER_FullDiv> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "HU_SET =  XLXI_1_0" for instance <XLXI_1> in unit <Contador_MUSER_FullDiv>.
+    Set user-defined property "HU_SET =  XLXI_2_1" for instance <XLXI_2> in unit <Contador_MUSER_FullDiv>.
+    Set user-defined property "HU_SET =  XLXI_3_2" for instance <XLXI_3> in unit <Contador_MUSER_FullDiv>.
+    Set user-defined property "HU_SET =  XLXI_4_3" for instance <XLXI_4> in unit <Contador_MUSER_FullDiv>.
+    Set user-defined property "HU_SET =  XLXI_5_4" for instance <XLXI_5> in unit <Contador_MUSER_FullDiv>.
+    Set user-defined property "HU_SET =  XLXI_6_5" for instance <XLXI_6> in unit <Contador_MUSER_FullDiv>.
+Entity <Contador_MUSER_FullDiv> analyzed. Unit <Contador_MUSER_FullDiv> generated.
+
+Analyzing generic Entity <FTC_MXILINX_FullDiv> in library <work> (Architecture <BEHAVIORAL>).
+	INIT = '0'
+    Set user-defined property "INIT =  0" for instance <I_36_35> in unit <FTC_MXILINX_FullDiv>.
+    Set user-defined property "RLOC =  X0Y0" for instance <I_36_35> in unit <FTC_MXILINX_FullDiv>.
+Entity <FTC_MXILINX_FullDiv> analyzed. Unit <FTC_MXILINX_FullDiv> generated.
+
+Analyzing Entity <Registro_MUSER_FullDiv> in library <work> (Architecture <BEHAVIORAL>).
+    Set user-defined property "INIT =  0" for instance <XLXI_2> in unit <Registro_MUSER_FullDiv>.
+    Set user-defined property "INIT =  0" for instance <XLXI_3> in unit <Registro_MUSER_FullDiv>.
+    Set user-defined property "INIT =  0" for instance <XLXI_4> in unit <Registro_MUSER_FullDiv>.
+    Set user-defined property "INIT =  0" for instance <XLXI_5> in unit <Registro_MUSER_FullDiv>.
+    Set user-defined property "INIT =  0" for instance <XLXI_6> in unit <Registro_MUSER_FullDiv>.
+    Set user-defined property "INIT =  0" for instance <XLXI_8> in unit <Registro_MUSER_FullDiv>.
+Entity <Registro_MUSER_FullDiv> analyzed. Unit <Registro_MUSER_FullDiv> generated.
+
+Analyzing Entity <RegistroA_MUSER_FullDiv> in library <work> (Architecture <BEHAVIORAL>).
+Entity <RegistroA_MUSER_FullDiv> analyzed. Unit <RegistroA_MUSER_FullDiv> generated.
+
+Analyzing Entity <moore> in library <work> (Architecture <behavioral>).
+INFO:Xst:1561 - "C:/Users/alejandro/Desktop/proyectologica/proyect/moore.vhd" line 161: Mux is complete : default of case is discarded
+WARNING:Xst:819 - "C:/Users/alejandro/Desktop/proyectologica/proyect/moore.vhd" line 67: One or more signals are missing in the process sensitivity list. To enable synthesis of FPGA/CPLD hardware, XST will assume that all necessary signals are present in the sensitivity list. Please note that the result of the synthesis may differ from the initial design specification. The missing signals are:
+   <enable>, <comp>
+Entity <moore> analyzed. Unit <moore> generated.
+
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Performing bidirectional port resolution...
+
+Synthesizing Unit <COMPARADOR>.
+    Related source file is "C:/Users/alejandro/Desktop/proyectologica/proyect/COMPARADOR.vhd".
+    Found 6-bit comparator equal for signal <IGUAL$cmp_eq0000> created at line 52.
+    Found 6-bit comparator greater for signal <MAYOR$cmp_gt0000> created at line 50.
+    Found 6-bit comparator less for signal <MENOR$cmp_lt0000> created at line 51.
+    Summary:
+	inferred   3 Comparator(s).
+Unit <COMPARADOR> synthesized.
+
+
+Synthesizing Unit <muxBus6>.
+    Related source file is "C:/Users/alejandro/Desktop/proyectologica/proyect/muxBus6.vhd".
+Unit <muxBus6> synthesized.
+
+
+Synthesizing Unit <moore>.
+    Related source file is "C:/Users/alejandro/Desktop/proyectologica/proyect/moore.vhd".
+WARNING:Xst:1780 - Signal <STATE> is never used or assigned. This unconnected signal will be trimmed during the optimization process.
+    Using one-hot encoding for signal <CURRENT_STATE>.
+WARNING:Xst:737 - Found 1-bit latch for signal <count>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <carga>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <reset>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <resta>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <count$mux0001>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <count$mux0002>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <carga$mux0001>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <carga$mux0002>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <reset$mux0001>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <reset$mux0002>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <resta$mux0001>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+WARNING:Xst:737 - Found 1-bit latch for signal <resta$mux0002>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+INFO:Xst:2371 - HDL ADVISOR - Logic functions respectively driving the data and gate enable inputs of this latch share common terms. This situation will potentially lead to setup/hold violations and, as a result, to simulation problems. This situation may come from an incomplete case statement (all selector values are not covered). You should carefully review if it was in your intentions to describe such a latch.
+    Found 8-bit register for signal <CURRENT_STATE>.
+    Summary:
+	inferred   8 D-type flip-flop(s).
+Unit <moore> synthesized.
+
+
+Synthesizing Unit <Registro_MUSER_FullDiv>.
+    Related source file is "C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf".
+Unit <Registro_MUSER_FullDiv> synthesized.
+
+
+Synthesizing Unit <Sumador1Bit_MUSER_FullDiv>.
+    Related source file is "C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf".
+Unit <Sumador1Bit_MUSER_FullDiv> synthesized.
+
+
+Synthesizing Unit <FTC_MXILINX_FullDiv>.
+    Related source file is "C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf".
+Unit <FTC_MXILINX_FullDiv> synthesized.
+
+
+Synthesizing Unit <Contador_MUSER_FullDiv>.
+    Related source file is "C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf".
+Unit <Contador_MUSER_FullDiv> synthesized.
+
+
+Synthesizing Unit <RegistroA_MUSER_FullDiv>.
+    Related source file is "C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf".
+Unit <RegistroA_MUSER_FullDiv> synthesized.
+
+
+Synthesizing Unit <Sumador6bits_MUSER_FullDiv>.
+    Related source file is "C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf".
+Unit <Sumador6bits_MUSER_FullDiv> synthesized.
+
+
+Synthesizing Unit <SumadorRestador6bits_MUSER_FullDiv>.
+    Related source file is "C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf".
+Unit <SumadorRestador6bits_MUSER_FullDiv> synthesized.
+
+
+Synthesizing Unit <Division_MUSER_FullDiv>.
+    Related source file is "C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf".
+Unit <Division_MUSER_FullDiv> synthesized.
+
+
+Synthesizing Unit <FullDiv>.
+    Related source file is "C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.vhf".
+Unit <FullDiv> synthesized.
+
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 1
+ 8-bit register                                        : 1
+# Latches                                              : 12
+ 1-bit latch                                           : 12
+# Comparators                                          : 3
+ 6-bit comparator equal                                : 1
+ 6-bit comparator greater                              : 1
+ 6-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <count_mux0001>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <carga_mux0001>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <reset_mux0002>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <0> (without init value) has a constant value of 0 in block <resta_mux0001>. This FF/Latch will be trimmed during the optimization process.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Registers                                            : 26
+ Flip-Flops                                            : 26
+# Latches                                              : 12
+ 1-bit latch                                           : 12
+# Comparators                                          : 3
+ 6-bit comparator equal                                : 1
+ 6-bit comparator greater                              : 1
+ 6-bit comparator less                                 : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+WARNING:Xst:1710 - FF/Latch <count_mux0001> (without init value) has a constant value of 0 in block <moore>. This FF/Latch will be trimmed during the optimization process.
+
+Optimizing unit <FullDiv> ...
+
+Optimizing unit <moore> ...
+
+Optimizing unit <Registro_MUSER_FullDiv> ...
+
+Optimizing unit <FTC_MXILINX_FullDiv> ...
+
+Optimizing unit <Contador_MUSER_FullDiv> ...
+
+Optimizing unit <Division_MUSER_FullDiv> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block FullDiv, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 26
+ Flip-Flops                                            : 26
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Final Report                               *
+=========================================================================
+Final Results
+RTL Top Level Output File Name     : FullDiv.ngr
+Top Level Output File Name         : FullDiv
+Output Format                      : NGC
+Optimization Goal                  : Speed
+Keep Hierarchy                     : No
+
+Design Statistics
+# IOs                              : 14
+
+Cell Usage :
+# BELS                             : 112
+#      AND2                        : 18
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 5
+#      LUT2                        : 17
+#      LUT3                        : 8
+#      LUT4                        : 7
+#      MUXCY                       : 6
+#      MUXF5                       : 17
+#      OR2                         : 7
+#      VCC                         : 1
+#      XOR2                        : 24
+# FlipFlops/Latches                : 31
+#      FD                          : 12
+#      FDC                         : 6
+#      FDE                         : 8
+#      LD                          : 1
+#      LD_1                        : 4
+# Clock Buffers                    : 2
+#      BUFG                        : 2
+# IO Buffers                       : 14
+#      IBUF                        : 8
+#      OBUF                        : 6
+=========================================================================
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 3s500efg320-4 
+
+ Number of Slices:                       19  out of   4656     0%  
+ Number of Slice Flip Flops:             31  out of   9312     0%  
+ Number of 4 input LUTs:                 38  out of   9312     0%  
+ Number of IOs:                          14
+ Number of bonded IOBs:                  14  out of    232     6%  
+ Number of GCLKs:                         2  out of     24     8%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+TIMING REPORT
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-------------------------------------------------------------+--------------------------------------+-------+
+Clock Signal                                                 | Clock buffer(FF name)                | Load  |
+-------------------------------------------------------------+--------------------------------------+-------+
+XLXI_1/XLXI_19/count                                         | NONE(XLXI_1/XLXI_10/XLXI_6/I_36_35)  | 6     |
+CLK                                                          | IBUF+BUFG                            | 14    |
+XLXI_1/XLXN_94(XLXI_1/XLXI_17:O)                             | NONE(*)(XLXI_1/XLXI_16/XLXI_7/XLXI_2)| 6     |
+Enable                                                       | IBUF+BUFG                            | 1     |
+XLXI_1/XLXI_19/count_and0000(XLXI_1/XLXI_19/count_and00001:O)| NONE(*)(XLXI_1/XLXI_19/resta)        | 4     |
+-------------------------------------------------------------+--------------------------------------+-------+
+(*) These 2 clock signal(s) are generated by combinatorial logic,
+and XST is not able to identify which are the primary clock signals.
+Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+--------------------------------------------+------------------------------------+-------+
+Control Signal                              | Buffer(FF name)                    | Load  |
+--------------------------------------------+------------------------------------+-------+
+XLXI_1/XLXI_19/reset(XLXI_1/XLXI_19/reset:Q)| NONE(XLXI_1/XLXI_10/XLXI_1/I_36_35)| 6     |
+--------------------------------------------+------------------------------------+-------+
+
+Timing Summary:
+---------------
+Speed Grade: -4
+
+   Minimum period: 15.404ns (Maximum Frequency: 64.918MHz)
+   Minimum input arrival time before clock: 3.828ns
+   Maximum output required time after clock: 10.178ns
+   Maximum combinational path delay: No path found
+
+Timing Detail:
+--------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_1/XLXI_19/count'
+  Clock period: 7.214ns (frequency: 138.619MHz)
+  Total number of paths / destination ports: 21 / 6
+-------------------------------------------------------------------------
+Delay:               7.214ns (Levels of Logic = 6)
+  Source:            XLXI_1/XLXI_10/XLXI_1/I_36_35 (FF)
+  Destination:       XLXI_1/XLXI_10/XLXI_6/I_36_35 (FF)
+  Source Clock:      XLXI_1/XLXI_19/count rising
+  Destination Clock: XLXI_1/XLXI_19/count rising
+
+  Data Path: XLXI_1/XLXI_10/XLXI_1/I_36_35 to XLXI_1/XLXI_10/XLXI_6/I_36_35
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.591   0.587  I_36_35 (Q)
+     end scope: 'XLXI_1/XLXI_10/XLXI_1'
+     AND2:I1->O            2   0.704   0.447  XLXI_1/XLXI_10/XLXI_8 (XLXI_1/XLXI_10/XLXN_31)
+     AND2:I1->O            2   0.704   0.447  XLXI_1/XLXI_10/XLXI_9 (XLXI_1/XLXI_10/XLXN_33)
+     AND2:I1->O            2   0.704   0.447  XLXI_1/XLXI_10/XLXI_10 (XLXI_1/XLXI_10/XLXN_35)
+     AND2:I1->O            2   0.704   0.447  XLXI_1/XLXI_10/XLXI_11 (XLXI_1/XLXI_10/XLXN_45)
+     begin scope: 'XLXI_1/XLXI_10/XLXI_6'
+     XOR2:I0->O            1   0.704   0.420  I_36_32 (TQ)
+     FDC:D                     0.308          I_36_35
+    ----------------------------------------
+    Total                      7.214ns (4.419ns logic, 2.795ns route)
+                                       (61.3% logic, 38.7% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'CLK'
+  Clock period: 7.042ns (frequency: 142.005MHz)
+  Total number of paths / destination ports: 78 / 13
+-------------------------------------------------------------------------
+Delay:               7.042ns (Levels of Logic = 10)
+  Source:            XLXI_1/XLXI_15/XLXI_8 (FF)
+  Destination:       XLXI_1/XLXI_19/CURRENT_STATE_3 (FF)
+  Source Clock:      CLK rising
+  Destination Clock: CLK rising
+
+  Data Path: XLXI_1/XLXI_15/XLXI_8 to XLXI_1/XLXI_19/CURRENT_STATE_3
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               4   0.591   0.762  XLXI_1/XLXI_15/XLXI_8 (XLXI_1/B<0>)
+     LUT2:I0->O            1   0.704   0.000  XLXI_1/XLXI_1/Mcompar_MAYOR_cmp_gt0000_lut<0> (XLXI_1/XLXI_1/Mcompar_MAYOR_cmp_gt0000_lut<0>)
+     MUXCY:S->O            1   0.464   0.000  XLXI_1/XLXI_1/Mcompar_MAYOR_cmp_gt0000_cy<0> (XLXI_1/XLXI_1/Mcompar_MAYOR_cmp_gt0000_cy<0>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/XLXI_1/Mcompar_MAYOR_cmp_gt0000_cy<1> (XLXI_1/XLXI_1/Mcompar_MAYOR_cmp_gt0000_cy<1>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/XLXI_1/Mcompar_MAYOR_cmp_gt0000_cy<2> (XLXI_1/XLXI_1/Mcompar_MAYOR_cmp_gt0000_cy<2>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/XLXI_1/Mcompar_MAYOR_cmp_gt0000_cy<3> (XLXI_1/XLXI_1/Mcompar_MAYOR_cmp_gt0000_cy<3>)
+     MUXCY:CI->O           1   0.059   0.000  XLXI_1/XLXI_1/Mcompar_MAYOR_cmp_gt0000_cy<4> (XLXI_1/XLXI_1/Mcompar_MAYOR_cmp_gt0000_cy<4>)
+     MUXCY:CI->O           1   0.459   0.420  XLXI_1/XLXI_1/Mcompar_MAYOR_cmp_gt0000_cy<5> (XLXI_1/XLXI_1/Mcompar_MAYOR_cmp_gt0000_cy<5>)
+     INV:I->O              1   0.704   0.420  XLXI_1/XLXI_1/Mcompar_MAYOR_cmp_gt0000_cy<5>_inv_INV_0 (XLXI_1/XLXN_46)
+     OR2:I1->O             3   0.704   0.566  XLXI_1/XLXI_7 (XLXI_1/XLXN_26)
+     LUT3:I2->O            1   0.704   0.000  XLXI_1/XLXI_19/NEXT_STATE<5>1 (XLXI_1/XLXI_19/NEXT_STATE<5>)
+     FDE:D                     0.308          XLXI_1/XLXI_19/CURRENT_STATE_5
+    ----------------------------------------
+    Total                      7.042ns (4.874ns logic, 2.168ns route)
+                                       (69.2% logic, 30.8% route)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'XLXI_1/XLXN_94'
+  Clock period: 15.404ns (frequency: 64.918MHz)
+  Total number of paths / destination ports: 41 / 6
+-------------------------------------------------------------------------
+Delay:               15.404ns (Levels of Logic = 14)
+  Source:            XLXI_1/XLXI_16/XLXI_7/XLXI_8 (FF)
+  Destination:       XLXI_1/XLXI_16/XLXI_7/XLXI_6 (FF)
+  Source Clock:      XLXI_1/XLXN_94 rising
+  Destination Clock: XLXI_1/XLXN_94 rising
+
+  Data Path: XLXI_1/XLXI_16/XLXI_7/XLXI_8 to XLXI_1/XLXI_16/XLXI_7/XLXI_6
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               5   0.591   0.633  XLXI_1/XLXI_16/XLXI_7/XLXI_8 (XLXI_1/A<0>)
+     XOR2:I1->O            2   0.704   0.447  XLXI_1/XLXI_4/XLXI_1/XLXI_1/XLXI_3 (XLXI_1/XLXI_4/XLXI_1/XLXI_1/XLXN_17)
+     AND2:I0->O            1   0.704   0.420  XLXI_1/XLXI_4/XLXI_1/XLXI_1/XLXI_5 (XLXI_1/XLXI_4/XLXI_1/XLXI_1/XLXN_22)
+     OR2:I1->O             2   0.704   0.447  XLXI_1/XLXI_4/XLXI_1/XLXI_1/XLXI_6 (XLXI_1/XLXI_4/XLXI_1/XLXN_6)
+     AND2:I1->O            1   0.704   0.420  XLXI_1/XLXI_4/XLXI_1/XLXI_2/XLXI_5 (XLXI_1/XLXI_4/XLXI_1/XLXI_2/XLXN_22)
+     OR2:I1->O             2   0.704   0.447  XLXI_1/XLXI_4/XLXI_1/XLXI_2/XLXI_6 (XLXI_1/XLXI_4/XLXI_1/XLXN_9)
+     AND2:I1->O            1   0.704   0.420  XLXI_1/XLXI_4/XLXI_1/XLXI_5/XLXI_5 (XLXI_1/XLXI_4/XLXI_1/XLXI_5/XLXN_22)
+     OR2:I1->O             2   0.704   0.447  XLXI_1/XLXI_4/XLXI_1/XLXI_5/XLXI_6 (XLXI_1/XLXI_4/XLXI_1/XLXN_12)
+     AND2:I1->O            1   0.704   0.420  XLXI_1/XLXI_4/XLXI_1/XLXI_6/XLXI_5 (XLXI_1/XLXI_4/XLXI_1/XLXI_6/XLXN_22)
+     OR2:I1->O             2   0.704   0.447  XLXI_1/XLXI_4/XLXI_1/XLXI_6/XLXI_6 (XLXI_1/XLXI_4/XLXI_1/XLXN_15)
+     AND2:I1->O            1   0.704   0.420  XLXI_1/XLXI_4/XLXI_1/XLXI_3/XLXI_5 (XLXI_1/XLXI_4/XLXI_1/XLXI_3/XLXN_22)
+     OR2:I1->O             2   0.704   0.447  XLXI_1/XLXI_4/XLXI_1/XLXI_3/XLXI_6 (XLXI_1/XLXI_4/XLXI_1/XLXN_18)
+     XOR2:I0->O            1   0.704   0.000  XLXI_1/XLXI_4/XLXI_1/XLXI_4/XLXI_4 (XLXI_1/XLXN_78)
+     MUXF5:I0->O           1   0.321   0.000  XLXI_1/XLXI_16/XLXI_6 (XLXI_1/XLXI_16/XLXN_6)
+     MUXF5:I1->O           1   0.321   0.000  XLXI_1/XLXI_16/XLXI_7/XLXI_12 (XLXI_1/XLXI_16/XLXI_7/XLXN_60)
+     FD:D                      0.308          XLXI_1/XLXI_16/XLXI_7/XLXI_6
+    ----------------------------------------
+    Total                     15.404ns (9.989ns logic, 5.415ns route)
+                                       (64.8% logic, 35.2% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'CLK'
+  Total number of paths / destination ports: 23 / 22
+-------------------------------------------------------------------------
+Offset:              3.828ns (Levels of Logic = 3)
+  Source:            Enable (PAD)
+  Destination:       XLXI_1/XLXI_19/CURRENT_STATE_7 (FF)
+  Destination Clock: CLK rising
+
+  Data Path: Enable to XLXI_1/XLXI_19/CURRENT_STATE_7
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            20   1.218   1.277  Enable_IBUF (Enable_IBUF1)
+     LUT4:I0->O            1   0.704   0.000  XLXI_1/XLXI_19/NEXT_STATE<7>2 (XLXI_1/XLXI_19/NEXT_STATE<7>2)
+     MUXF5:I0->O           1   0.321   0.000  XLXI_1/XLXI_19/NEXT_STATE<7>_f5 (XLXI_1/XLXI_19/NEXT_STATE<7>)
+     FDE:D                     0.308          XLXI_1/XLXI_19/CURRENT_STATE_7
+    ----------------------------------------
+    Total                      3.828ns (2.551ns logic, 1.277ns route)
+                                       (66.6% logic, 33.4% route)
+
+=========================================================================
+Timing constraint: Default OFFSET IN BEFORE for Clock 'Enable'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              2.628ns (Levels of Logic = 1)
+  Source:            Enable (PAD)
+  Destination:       XLXI_1/XLXI_19/count_mux0002 (LATCH)
+  Destination Clock: Enable falling
+
+  Data Path: Enable to XLXI_1/XLXI_19/count_mux0002
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O            20   1.218   1.102  Enable_IBUF (Enable_IBUF1)
+     LD:D                      0.308          XLXI_1/XLXI_19/count_mux0002
+    ----------------------------------------
+    Total                      2.628ns (1.526ns logic, 1.102ns route)
+                                       (58.1% logic, 41.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'XLXI_1/XLXI_19/count'
+  Total number of paths / destination ports: 11 / 6
+-------------------------------------------------------------------------
+Offset:              10.178ns (Levels of Logic = 7)
+  Source:            XLXI_1/XLXI_10/XLXI_1/I_36_35 (FF)
+  Destination:       S5 (PAD)
+  Source Clock:      XLXI_1/XLXI_19/count rising
+
+  Data Path: XLXI_1/XLXI_10/XLXI_1/I_36_35 to S5
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              4   0.591   0.587  I_36_35 (Q)
+     end scope: 'XLXI_1/XLXI_10/XLXI_1'
+     AND2:I1->O            2   0.704   0.447  XLXI_1/XLXI_10/XLXI_8 (XLXI_1/XLXI_10/XLXN_31)
+     AND2:I1->O            2   0.704   0.447  XLXI_1/XLXI_10/XLXI_9 (XLXI_1/XLXI_10/XLXN_33)
+     AND2:I1->O            2   0.704   0.447  XLXI_1/XLXI_10/XLXI_10 (XLXI_1/XLXI_10/XLXN_35)
+     AND2:I1->O            2   0.704   0.447  XLXI_1/XLXI_10/XLXI_11 (XLXI_1/XLXI_10/XLXN_45)
+     AND2:I0->O            1   0.704   0.420  XLXI_1/XLXI_10/XLXI_13 (S5_OBUF)
+     OBUF:I->O                 3.272          S5_OBUF (S5)
+    ----------------------------------------
+    Total                     10.178ns (7.383ns logic, 2.795ns route)
+                                       (72.5% logic, 27.5% route)
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 20.00 secs
+Total CPU time to Xst completion: 20.29 secs
+ 
+--> 
+
+Total memory usage is 264820 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   21 (   0 filtered)
+Number of infos    :   14 (   0 filtered)
+

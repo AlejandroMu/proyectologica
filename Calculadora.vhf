@@ -7,7 +7,7 @@
 -- \   \   \/     Version : 14.4
 --  \   \         Application : sch2hdl
 --  /   /         Filename : Calculadora.vhf
--- /___/   /\     Timestamp : 11/28/2018 14:33:06
+-- /___/   /\     Timestamp : 11/29/2018 15:57:02
 -- \   \  /  \ 
 --  \___\/\___\ 
 --

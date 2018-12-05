@@ -1,0 +1,2 @@
+vhdtdtfi -lib work moore.vhd -prj proyect -o moore.spl -module moore -template D:/xilins/14.4/ISE_DS/ISE//data/splfile.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan3e moore.spl C:/Users/alejandro/Desktop/proyectologica/proyect/moore.sym 

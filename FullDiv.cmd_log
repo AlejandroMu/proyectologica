@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.xst" -ofn "C:/Users/alejandro/Desktop/proyectologica/proyect/FullDiv.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FullDiv.ucf -p xc3s500e-fg320-4 FullDiv.ngc FullDiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o FullDiv_map.ncd FullDiv.ngd FullDiv.pcf 
+par -w -intstyle ise -ol high -t 1 FullDiv_map.ncd FullDiv.ncd FullDiv.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FullDiv.ucf -p xc3s500e-fg320-4 FullDiv.ngc FullDiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o FullDiv_map.ncd FullDiv.ngd FullDiv.pcf 
+par -w -intstyle ise -ol high -t 1 FullDiv_map.ncd FullDiv.ncd FullDiv.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc FullDiv.ucf -p xc3s500e-fg320-4 FullDiv.ngc FullDiv.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o FullDiv_map.ncd FullDiv.ngd FullDiv.pcf 
+par -w -intstyle ise -ol high -t 1 FullDiv_map.ncd FullDiv.ncd FullDiv.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml FullDiv.twx FullDiv.ncd -o FullDiv.twr FullDiv.pcf -ucf FullDiv.ucf 
+bitgen -intstyle ise -f FullDiv.ut FullDiv.ncd 

@@ -6,35 +6,11 @@
         <trait edittrait="all:0" />
     </attr>
     <netlist>
-        <signal name="XLXN_24" />
-        <signal name="XLXN_26" />
-        <signal name="XLXN_28" />
-        <signal name="XLXN_29" />
-        <signal name="XLXN_30" />
-        <signal name="XLXN_31" />
-        <signal name="XLXN_32" />
-        <signal name="XLXN_33" />
-        <signal name="XLXN_34" />
-        <signal name="XLXN_35" />
-        <signal name="XLXN_36" />
-        <signal name="XLXN_37" />
-        <signal name="XLXN_43" />
-        <signal name="XLXN_44" />
-        <signal name="XLXN_45" />
-        <signal name="XLXN_47" />
-        <signal name="XLXN_50" />
-        <signal name="XLXN_51" />
-        <signal name="XLXN_52" />
-        <signal name="XLXN_54" />
-        <signal name="XLXN_55" />
         <signal name="XLXN_56" />
         <signal name="XLXN_57" />
         <signal name="XLXN_58" />
         <signal name="XLXN_59" />
         <signal name="XLXN_60" />
-        <signal name="XLXN_63" />
-        <signal name="XLXN_65" />
-        <signal name="XLXN_66" />
         <signal name="O4P" />
         <signal name="O3P" />
         <signal name="O2P" />
@@ -45,10 +21,9 @@
         <signal name="I3P" />
         <signal name="I4P" />
         <signal name="I5P" />
-        <signal name="IS" />
+        <signal name="IS0" />
         <signal name="CLK" />
         <signal name="x" />
-        <signal name="XLXN_85" />
         <signal name="O5P" />
         <port polarity="Output" name="O4P" />
         <port polarity="Output" name="O3P" />
@@ -60,7 +35,7 @@
         <port polarity="Input" name="I3P" />
         <port polarity="Input" name="I4P" />
         <port polarity="Input" name="I5P" />
-        <port polarity="Input" name="IS" />
+        <port polarity="Input" name="IS0" />
         <port polarity="Input" name="CLK" />
         <port polarity="Input" name="x" />
         <port polarity="Output" name="O5P" />
@@ -119,7 +94,7 @@
         </block>
         <block symbolname="fd" name="XLXI_8">
             <blockpin signalname="CLK" name="C" />
-            <blockpin signalname="IS" name="D" />
+            <blockpin signalname="IS0" name="D" />
             <blockpin signalname="O0P" name="Q" />
         </block>
         <block symbolname="muxf5" name="XLXI_9">
@@ -262,21 +237,21 @@
             <wire x2="2608" y1="1456" y2="1456" x1="2576" />
         </branch>
         <iomarker fontsize="28" x="2576" y="1456" name="I5P" orien="R180" />
-        <branch name="IS">
+        <branch name="IS0">
             <wire x2="128" y1="720" y2="720" x1="96" />
         </branch>
-        <iomarker fontsize="28" x="96" y="720" name="IS" orien="R180" />
+        <iomarker fontsize="28" x="96" y="720" name="IS0" orien="R180" />
         <branch name="CLK">
             <wire x2="112" y1="608" y2="848" x1="112" />
             <wire x2="128" y1="848" y2="848" x1="112" />
             <wire x2="624" y1="608" y2="608" x1="112" />
-            <wire x2="632" y1="608" y2="608" x1="624" />
-            <wire x2="1120" y1="608" y2="608" x1="632" />
+            <wire x2="640" y1="608" y2="608" x1="624" />
+            <wire x2="1120" y1="608" y2="608" x1="640" />
             <wire x2="1712" y1="608" y2="608" x1="1120" />
-            <wire x2="1720" y1="608" y2="608" x1="1712" />
-            <wire x2="2240" y1="608" y2="608" x1="1720" />
-            <wire x2="2248" y1="608" y2="608" x1="2240" />
-            <wire x2="2784" y1="608" y2="608" x1="2248" />
+            <wire x2="1728" y1="608" y2="608" x1="1712" />
+            <wire x2="2240" y1="608" y2="608" x1="1728" />
+            <wire x2="2256" y1="608" y2="608" x1="2240" />
+            <wire x2="2784" y1="608" y2="608" x1="2256" />
             <wire x2="3440" y1="608" y2="608" x1="2784" />
             <wire x2="3440" y1="608" y2="1680" x1="3440" />
             <wire x2="2240" y1="608" y2="848" x1="2240" />

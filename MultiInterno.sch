@@ -20,9 +20,6 @@
         <signal name="x3" />
         <signal name="x4" />
         <signal name="x5" />
-        <signal name="XLXN_18" />
-        <signal name="XLXN_19" />
-        <signal name="XLXN_20" />
         <signal name="XLXN_21" />
         <signal name="XLXN_22" />
         <signal name="XLXN_23" />

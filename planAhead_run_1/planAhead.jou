@@ -1,8 +1,8 @@
 #-----------------------------------------------------------
 # PlanAhead v14.4 (64-bit)
 # Build 222254 by xbuild on Tue Dec 18 05:21:09 MST 2012
-# Start of session at: Wed Nov 28 12:46:01 2018
-# Process ID: 4708
+# Start of session at: Thu Nov 29 15:47:41 2018
+# Process ID: 4460
 # Log file: C:/Users/alejandro/Desktop/proyectologica/proyect/planAhead_run_1/planAhead.log
 # Journal file: C:/Users/alejandro/Desktop/proyectologica/proyect/planAhead_run_1/planAhead.jou
 #-----------------------------------------------------------
@@ -10,21 +10,14 @@ start_gui
 source C:/Users/alejandro/Desktop/proyectologica/proyect/pa.fromHdl.tcl
 update_compile_order -fileset sim_1
 startgroup
-set_property package_pin L13 [get_ports A0]
+set_property package_pin N17 [get_ports clk]
 endgroup
 startgroup
-set_property package_pin L14 [get_ports A1]
+set_property package_pin L14 [get_ports clr]
 endgroup
 startgroup
-set_property package_pin H18 [get_ports A2]
+set_property package_pin L13 [get_ports D]
 endgroup
-startgroup
-set_property package_pin N17 [get_ports A3]
-endgroup
-set_property pulltype PULLUP [get_ports [list A0]]
-set_property pulltype PULLUP [get_ports [list A1]]
-set_property pulltype PULLUP [get_ports [list A2]]
-set_property pulltype PULLUP [get_ports [list A3]]
 startgroup
 set_property package_pin F12 [get_ports S0]
 endgroup
@@ -34,8 +27,16 @@ endgroup
 startgroup
 set_property package_pin E11 [get_ports S2]
 endgroup
-save_constraints
 startgroup
 set_property package_pin F11 [get_ports S3]
 endgroup
+startgroup
+set_property package_pin C11 [get_ports S4]
+endgroup
+startgroup
+set_property package_pin D11 [get_ports S5]
+endgroup
+set_property pulltype PULLUP [get_ports [list clk]]
+set_property pulltype PULLUP [get_ports [list clr]]
+set_property pulltype PULLUP [get_ports [list D]]
 save_constraints
